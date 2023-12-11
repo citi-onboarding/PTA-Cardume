@@ -1,3 +1,2 @@
-import { BlueButton } from './Button';
-
-export { BlueButton };
+import  Section1  from "./section1";
+export { Section1 };
