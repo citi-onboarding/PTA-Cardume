@@ -5,8 +5,12 @@ import { StyleSheetManager, ThemeProvider } from "styled-components";
 
 import GlobalStyles from "../styles/global";
 import theme from "../styles/theme";
+import localFont from 'next/font/local';
+const gothamBlack = localFont({
+  src: "../assets/gotham-black/Gotham Black Regular.ttf"
+})
 
-function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps ) {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>
@@ -23,7 +27,7 @@ function App({ Component, pageProps }: AppProps) {
           <meta name="description" content="A simple boilerplate for next.js" />
         </Head>
         <GlobalStyles />
-        <Component {...pageProps} />
+        <Component {...pageProps} className={gothamBlack.className}/>
       </ThemeProvider>
     </StyleSheetManager>
   );

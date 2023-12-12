@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.20",
+    "@types/styled-components": "^5.1.34",
+    "next-fonts": "^1.5.1",
+    "styled-components": "^6.1.1"
+  }
+}
