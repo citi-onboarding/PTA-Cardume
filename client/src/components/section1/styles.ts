@@ -1,9 +1,8 @@
-import { constants } from 'fs/promises';
 import styled from 'styled-components';
 import { ImageDegrade } from 'assets';
 
 export const Container = styled.section`
-  width: 1440px;
+  width: 100%;
   height: 584px;
   display: flex;
   align-items: center;
@@ -13,10 +12,13 @@ export const Container = styled.section`
 `;
 
 export const TextContainer = styled.div`
-  width: 630px;
-  margin-right: auto;
-  padding: 80.07px;
-  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8%;
+  margin-left: 3%;
 `;
 
 export const Subtitle = styled.span`
@@ -24,18 +26,15 @@ export const Subtitle = styled.span`
   font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 900;
   line-height: 24px;
 `;
 
 export const Header = styled.div`
   font-family: "Gotham Black", sans-serif;
   font-size: 20px;
-  font-weight: 900;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  width: 552px;
   height: 20px;
   margin-bottom: 40px;
   color: #ff9100;
@@ -44,35 +43,29 @@ export const Header = styled.div`
 export const TitleText = styled.h1`
   color: var(--White-Back, #FAFAFA);
   font-family: 'Gotham Medium', sans-serif;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 500;
   line-height: 36px;
   white-space: nowrap; 
 `;
 export const Paragraph = styled.p`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 20px;
   font-style: auto;
   font-weight: 500;
   line-height: 20px; /* 100% */
   margin-bottom: 32px;
-  margin-right: 16px;
   display: flex;
   align-items: center;
 `;
 
 export const Checkout = styled.div`
   display: flex;
-  width: 610px;
   flex-direction: column;
   align-items: flex-start;
-  gap: auto;
-  height: 244px;
-  position: absolute;
-  top: 90px;
-  left: calc(630px + 82px + 40px);
-  box-sizing: border-box;
+  margin-top: -4%;
+  margin-left: 5%;
+  margin-right: 2%
 `;
 
 export const Image = styled.img`
@@ -86,22 +79,20 @@ export const OrangeText = styled.span`
   color: var(--Pure-Orange, #FF9100);
   font-family: 'Gotham Black', sans-serif;
   font-size: 36px;
-  font-weight: 900;
   line-height: 36px;
 `;
 
 export const Paragraph2 = styled.p`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 24px;
-  white-space: nowrap; 
+  white-space: nowrap;
+  margin-top: 1%; 
   `;
 export const OrangeText2 = styled.span`
   color: var(--Pure-Orange, #FF9100);
   font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
-  font-weight: 900;
   line-height: 24px;
   `;
