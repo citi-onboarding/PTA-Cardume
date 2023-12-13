@@ -6,8 +6,12 @@ import { StyleSheetManager, ThemeProvider } from "styled-components";
 import GlobalStyles from "../styles/global";
 import theme from "../styles/theme";
 import localFont from 'next/font/local';
+
 const gothamBlack = localFont({
   src: "../assets/gotham-black/Gotham Black Regular.ttf"
+})
+const gothamMedium= localFont({
+  src: "../assets/gotham-medium/Gotham Medium Regular.ttf"
 })
 
 function App({ Component, pageProps }: AppProps ) {

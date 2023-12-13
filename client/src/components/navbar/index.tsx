@@ -6,7 +6,6 @@ import { LogoCardume } from "../../assets";
 
 export default function Home() {
   return (
-    
       <HomeContainer>
         <Newul> 
           <Newli>

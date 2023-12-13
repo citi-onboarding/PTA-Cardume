@@ -2,19 +2,16 @@ import styled from "styled-components";
 import Image from 'next/image';
 
 export const HomeContainer = styled.div`
-width: 100%;
-height: 20vh;
-  padding: 1440 120px;
+  width: 100%;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  //background-color: #000;
-
 `;
 
 export const Newul = styled.div` 
-  width: 1440px;
+  width: 100%;
   height: 120px;
   
   display: flex;
@@ -32,18 +29,19 @@ margin: 0 10px;
 
 export const NewLink = styled.a`
   text-decoration: none;
-  color: var(--White-Back, #FAFAFA);;
-  font-family: Gotham Black;
+  color: var(--White-Back, #FAFAFA);
+  font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
-  line-height: 24px; /* 100% */
+  line-height: 24px;
 
-  &: hover {
+  &:hover {
     text-decoration: underline;
-    text-decoration-color: #FF9100
+    text-decoration-color: #FF9100;
   }
 `;
+
 
 export const NewImage = styled(Image)`
 width: 305px;
