@@ -5,6 +5,9 @@ import { Section1 } from "../components"
 
 export default function Home() {
   return (
+    <>
     <Section1/>
+  
+    </>
   );
 }
