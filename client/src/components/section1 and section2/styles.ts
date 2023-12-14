@@ -60,7 +60,7 @@ export const TitleText = styled.h1`
   color: var(--White-Back, #FAFAFA);
   font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
-  font-weight: 500;
+  font-weights: 500;
   line-height: 36px;
   white-space: nowrap; 
 `;
@@ -71,7 +71,7 @@ export const Paragraph = styled.p`
   font-size: 20px;
   font-style: auto;
   font-weight: 500;
-  line-height: 20px; /* 100% */
+  line-height: 20px; 
   margin-bottom: 32px;
   margin-right: 16px;
   display: flex;
@@ -131,8 +131,8 @@ export const OrangeText2 = styled.span`
 
 export const TextBox = styled.div`
   position: absolute;
-  width: 630px;
-  right: 738px; 
+  width: 650px;
+  right: 708px; 
   top: 520px; 
   color: var(--Black, #1C1C1C);
   font-family: Gotham Medium, sans-serif;
@@ -191,9 +191,10 @@ export const Button = styled.button`
   border: 1px solid var(--White-Back, #FAFAFA);
   background: var(--Dark-Moderate-Violet, #4C2882);
   cursor: pointer;
+  transition: box-shadow 0.1s ease; 
 
   &:hover {
-    background-color: #FF9100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
   }
 `;
 

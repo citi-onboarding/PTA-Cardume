@@ -1,12 +1,17 @@
 import React from "react";
 import { Check, ImageDegrade, CarroCompras } from "assets";
 import { Container1, TextBox, OrangeText3, PurpleText, TextBox2, Button, ButtonText, ShoppingCartIcon, handleButtonClick, Container, TextContainer, Checkout, Header, Paragraph, Image, OrangeText, TitleText, Paragraph2, OrangeText2 } from './styles';
+import localFont from 'next/font/local';
 
-export default function Section1() {
+const gothamMedium= localFont({
+  src: "../../assets/gotham-medium/Gotham Medium Regular.ttf"
+})
+
+export default function Section1and2() {
   return ( 
     <Container>
-      <TextContainer>
-        <TitleText>
+      <TextContainer className={gothamMedium.className}>
+        <TitleText> 
           Registrou <OrangeText>sua marca</OrangeText> por conta
           <br /> própria ou tem uma marca
           <br /> registrada e quer receber
@@ -14,7 +19,7 @@ export default function Section1() {
           <br /> qualquer movimentação que ela
           <br /> venha a sofrer?
         </TitleText>
-        <Paragraph2>
+        <Paragraph2 className={gothamMedium.className}>
           <br />Oferecemos <OrangeText2>planos de monitoramento</OrangeText2> para que
           <br /> empreendedores e empresas acompanhem seus
           <br /> processos de registro ou suas marcas registradas
@@ -28,7 +33,7 @@ export default function Section1() {
           <Paragraph><Image src={Check.src} alt="check3" />Garantimos que seu esforço na construção e<br /> fortalecimento de sua marca não sejam em vão</Paragraph>
         </Checkout>
     <Container1>
-          <TextBox>
+          <TextBox className={gothamMedium.className}>
                 Agora você pode <OrangeText3>EVITAR tudo isso</OrangeText3> contratando<br />
                 nosso <PurpleText>PLANO DE ACOMPANHAMENTO DE<br />
                 PROCESSOS no INPI.</PurpleText> Com um investimento de<br /> 
