@@ -11,7 +11,7 @@ const SendMail = async(request: Request, response: Response) => {
             destinationUser: process.env.EMAIL_WILL_RECEIVE as string, 
             subjectText: 'nodemailer funcionando',
             htmlOption: `<p>
-                Um usuário entrou em contato! Esse usuário em nome ${name} e apresenta o email ${email}. 
+                Um usuário entrou em contato! Esse usuário tem nome ${name} e apresenta o email ${email}. 
                 Esse usuário deixou a mensagem: ${message}
             <p/>`
         })
