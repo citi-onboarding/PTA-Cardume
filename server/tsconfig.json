@@ -39,5 +39,7 @@
   ],
   "exclude": [
     "tests"
-  ]
+  ],
+  "types": ["node"]
+
 }
