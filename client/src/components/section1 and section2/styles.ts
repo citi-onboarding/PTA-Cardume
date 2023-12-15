@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { FundoSection2, ImageDegrade } from 'assets';
 
 export const Container = styled.section`
-  width: 1440px;
+  width: 100%;
   height: 995px;
   display: flex;
   align-items: center;
@@ -29,8 +29,8 @@ export const Container = styled.section`
 export const TextContainer = styled.div`
   width: 100%;
   height: 100%;
-  margin-left: 80.07px; 
-  margin-top: 180px; 
+  margin-left:4%; 
+  margin-top: 8%; 
   position: relative;
 `;
 
@@ -50,7 +50,6 @@ export const Header = styled.div`
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  width: 552px;
   height: 20px;
   margin-bottom: 40px;
   color: #ff9100;
@@ -60,7 +59,7 @@ export const TitleText = styled.h1`
   color: var(--White-Back, #FAFAFA);
   font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
-  font-weights: 500;
+  font-weight: 500;
   line-height: 36px;
   white-space: nowrap; 
 `;
@@ -80,14 +79,14 @@ export const Paragraph = styled.p`
 
 export const Checkout = styled.div`
   display: flex;
-  width: 610px;
   flex-direction: column;
   align-items: flex-start;
   gap: auto;
   height: 244px;
   position: absolute;
   top: 90px;
-  left: calc(630px + 82px + 40px);
+  margin-top: -2.5%;
+  left: 730px;
   box-sizing: border-box;
 `;
 
@@ -124,7 +123,6 @@ export const OrangeText2 = styled.span`
 
   export const Container1 = styled.section`
   position: relative;
-  width: 1440px;
   height: 580px;
 `;
 
@@ -132,7 +130,7 @@ export const OrangeText2 = styled.span`
 export const TextBox = styled.div`
   position: absolute;
   width: 650px;
-  right: 708px; 
+  right: 648px; 
   top: 520px; 
   color: var(--Black, #1C1C1C);
   font-family: Gotham Medium, sans-serif;
@@ -163,8 +161,8 @@ export const PurpleText = styled.span`
 `;
 export const TextBox2 = styled.div`
   position: absolute;
-  width: 630px;
-  right: 80px; 
+  width: 650px;
+  right: 50px; 
   top: 360px;
   text-align: right;
   color: var(--Black, #1C1C1C);
@@ -178,9 +176,9 @@ export const TextBox2 = styled.div`
 
 export const Button = styled.button`
   position: absolute;
-  top: 770px;
-  right: 208px;
-  width: 374px;
+  top: 750px;
+  right: 148px;
+  width: 380px;
   height: 88px;
   display: flex;
   padding: 24px 32px;
@@ -200,6 +198,7 @@ export const Button = styled.button`
 
 export const ButtonText = styled.span`
   color: var(--White-Back, #FAFAFA);
+  width: 100%;
   font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
   font-style: normal;
@@ -212,6 +211,7 @@ export const ShoppingCartIcon = styled.img`
   height: 40px;
 `;
 
+// faça com que seja target blank
 export const handleButtonClick = () => {
-    window.location.href = 'https://citi.org.br/';
+    window.open('https://citi.org.br/', '_blank');  
   };

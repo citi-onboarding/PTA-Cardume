@@ -3,9 +3,7 @@ import Check from "./check.png";
 import ImageDegrade from "./degrade.png";
 import FundoSection2 from "./textura.png";
 import CarroCompras from "./carrinho.png";
+import LogoCardume from "./LogoCardume.png";
 
-export { LogoCITi };
-export { Check };
-export { ImageDegrade };
-export { FundoSection2 }
-export { CarroCompras }
+
+export { LogoCITi, Check, ImageDegrade, LogoCardume, FundoSection2, CarroCompras };

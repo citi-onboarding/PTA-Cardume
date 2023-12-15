@@ -1,18 +1,19 @@
 import isPropValid from "@emotion/is-prop-valid";
 import { AppProps } from "next/app";
 import Head from "next/head";
+import GlobalStyles from "../styles/global";
+import theme from "../styles/theme";
 import { StyleSheetManager, ThemeProvider } from "styled-components";
 import localFont from 'next/font/local';
 
 const gothamBlack = localFont({
   src: "../assets/gotham-black/Gotham Black Regular.ttf"
 })
+const gothamMedium= localFont({
+  src: "../assets/gotham-medium/Gotham Medium Regular.ttf"
+})
 
-import GlobalStyles from "../styles/global";
-import theme from "../styles/theme";
-import { ClassNames } from "@emotion/react";
-
-function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps ) {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>

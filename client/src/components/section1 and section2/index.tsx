@@ -10,7 +10,7 @@ const gothamMedium= localFont({
 export default function Section1and2() {
   return ( 
     <Container>
-      <TextContainer className={gothamMedium.className}>
+      <TextContainer className={gothamMedium.className} id="section1">
         <TitleText> 
           Registrou <OrangeText>sua marca</OrangeText> por conta
           <br /> própria ou tem uma marca
@@ -32,8 +32,8 @@ export default function Section1and2() {
           <Paragraph><Image src={Check.src} alt="check2" />Monitoramos sua marca registrada 24/7 após a<br /> concessão do registro pelo INPI</Paragraph>
           <Paragraph><Image src={Check.src} alt="check3" />Garantimos que seu esforço na construção e<br /> fortalecimento de sua marca não sejam em vão</Paragraph>
         </Checkout>
-    <Container1>
-          <TextBox className={gothamMedium.className}>
+    <Container1 >
+          <TextBox className={gothamMedium.className} id="section2">
                 Agora você pode <OrangeText3>EVITAR tudo isso</OrangeText3> contratando<br />
                 nosso <PurpleText>PLANO DE ACOMPANHAMENTO DE<br />
                 PROCESSOS no INPI.</PurpleText> Com um investimento de<br /> 
@@ -52,8 +52,8 @@ export default function Section1and2() {
           <TextBox2>
                 <OrangeText3>Livre-se da OBRIGAÇÃO</OrangeText3> de acompanhar o seu<br />
                 pedido de registro de marca <OrangeText3>SEMANALMENTE</OrangeText3><br /> 
-                através da <PurpleText>Revista da Propriedade Industrial</PurpleText>,<br /> 
-                todas as terças-feiras, pelos próximos 12 meses. Livre-se<br />
+                através da <PurpleText>Revista da Propriedade Industrial</PurpleText>, 
+                todas<br/> as terças-feiras, pelos próximos 12 meses. Livre-se<br />
                 desse encargo pelas próximas 52 semanas!<br />
                 <br /> 
                 Nós sabemos como essa rotina semanal será<br />
