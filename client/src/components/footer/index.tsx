@@ -10,24 +10,19 @@ export default function Footer(){
                 <FalesConosco>
                     <Titulo>Fale conosco</Titulo>
                     <LinhaFaleConosco>
-                        <Icones href= "https://citi.org.br/"><Image src={WhatsappIcon} alt = "WhatsappIcon"/></Icones>
-                        <Infos>81 97339-6758</Infos>
+                        <Icones href= "https://citi.org.br/"><Image src={WhatsappIcon} alt = "WhatsappIcon"/></Icones><Infos>81 97339-6758</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <Icones href= "https://citi.org.br/"><Image src={WebsiteIcon} alt = "WebsiteIcon"/></Icones>
-                        <Infos>www.monitoresuamarca.com.br</Infos>
+                        <Icones href= "https://citi.org.br/"><Image src={WebsiteIcon} alt = "WebsiteIcon"/></Icones><Infos>www.monitoresuamarca.com.br</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <Icones href= "https://citi.org.br/"><Image src={EmailIcon} alt = "EmailIcon"/></Icones>
-                        <Infos>cardumepi@gmail.com</Infos>
+                        <Icones href= "https://citi.org.br/"><Image src={EmailIcon} alt = "EmailIcon"/></Icones><Infos>cardumepi@gmail.com</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <Icones href= "https://citi.org.br/"><Image src={InstagramIcon} alt = "InstagramIcon"/></Icones>
-                        <Infos>@cardumemarcas</Infos>
+                        <Icones href= "https://citi.org.br/"><Image src={InstagramIcon} alt = "InstagramIcon"/></Icones><Infos>@cardumemarcas</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <Icones href= "https://citi.org.br/"><Image src={FacebookIcon} alt = "FacebookIcon"/></Icones>
-                        <Infos>Cardume Propriedade Intelectual</Infos>
+                        <Icones href= "https://citi.org.br/"><Image src={FacebookIcon} alt = "FacebookIcon"/></Icones><Infos>Cardume Propriedade Intelectual</Infos>
                     </LinhaFaleConosco>
                 </FalesConosco>
                 
