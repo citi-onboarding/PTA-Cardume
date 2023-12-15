@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeContainer, Box, Titulo, Perguntas, Retangulo, Retangulo1, Retangulo2, Retangulo3, 
-    RetanguloWrapper, Contatos, ImgBotao, Space1, Space2} from "./style";
+    RetanguloWrapper, Contatos, ImgBotao, Space1, Space2, Perguntas1} from "./style";
     import { Botao } from "assets";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
                 <Retangulo placeholder="Nome da sua marca"></Retangulo>
                 <Perguntas>Qual seu ramo de atuação?</Perguntas>
                 <Retangulo placeholder="Seu ramo de atuação"></Retangulo>
-                <Perguntas>Qual seu nome?</Perguntas>
+                <Perguntas1>Qual seu nome?</Perguntas1>
                 <Retangulo placeholder="Seu nome"></Retangulo>
                 
 

@@ -69,6 +69,20 @@ margin-left: 0;
 margin-right: 200px;
 // margin-bottom: 500px;
 `;
+
+export const Perguntas1 = styled.a`
+color: var(--Moderate-Violet, #713AC4);
+
+/* Corpo texto* */
+font-family: Gotham Black;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 20px; /* 100% */
+margin-left: 0;
+margin-right: 320px;
+// margin-bottom: 500px;
+`;
 export const RetanguloWrapper = styled.div`
   display: flex;
   gap: -20px;
