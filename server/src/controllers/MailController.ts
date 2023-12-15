@@ -8,7 +8,7 @@ const SendMail = async(request: Request, response: Response) => {
     try{
         const {name, email, message} = request.body;
         await MailServer({
-            destinationUser: process.env.EMAIL_WILL_RECEIVE, 
+            destinationUser: process.env.EMAIL_WILL_RECEIVE as string, 
             subjectText: 'nodemailer funcionando',
             htmlOption: `<p>
                 Um usuário entrou em contato! Esse usuário em nome ${name} e apresenta o email ${email}. 
