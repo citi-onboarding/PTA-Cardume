@@ -27,7 +27,7 @@ export const Titulo = styled.header`
     line-height: 20px;
 `;
 
-export const FalesConosco = styled.div`
+export const FaleConosco = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
