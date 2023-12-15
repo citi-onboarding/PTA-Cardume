@@ -1,3 +1,3 @@
-import { BlueButton } from './Button';
+import  Footer  from './footer';
 
-export { BlueButton };
+export { Footer };
