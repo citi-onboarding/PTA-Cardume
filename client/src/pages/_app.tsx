@@ -1,10 +1,9 @@
 import isPropValid from "@emotion/is-prop-valid";
 import { AppProps } from "next/app";
 import Head from "next/head";
-import { StyleSheetManager, ThemeProvider } from "styled-components";
-
 import GlobalStyles from "../styles/global";
 import theme from "../styles/theme";
+import { StyleSheetManager, ThemeProvider } from "styled-components";
 import localFont from 'next/font/local';
 
 const gothamBlack = localFont({
@@ -31,7 +30,7 @@ function App({ Component, pageProps }: AppProps ) {
           <meta name="description" content="A simple boilerplate for next.js" />
         </Head>
         <GlobalStyles />
-        <Component {...pageProps} className={gothamBlack.className}/>
+        <Component {...pageProps} className={gothamBlack.className}/> 
       </ThemeProvider>
     </StyleSheetManager>
   );

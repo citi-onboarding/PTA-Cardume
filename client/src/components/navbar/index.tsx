@@ -12,10 +12,10 @@ export default function Home() {
           <img src={LogoCardume.src} alt="LogoCardume" style={{width: "305", height: "65", marginRight: "300px"}}/>
           </Newli>
           <Newli>
-            <NewLink href= "https://citi.org.br/">Home</NewLink>
+            <NewLink href= "#section1">Home</NewLink>
           </Newli>
           <Newli>
-            <NewLink href= "https://citi.org.br/">Serviço</NewLink>
+            <NewLink href= "#section2">Serviço</NewLink>
           </Newli>
           <Newli>
             <NewLink href= "https://citi.org.br/">Vantagens</NewLink>

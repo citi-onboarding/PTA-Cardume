@@ -1,4 +1,4 @@
-import  Section1  from "./section1";
+import  Section1and2  from "./section1 and section2";
 import Navbar from './navbar';
 
-export { Navbar, Section1 };
+export { Navbar, Section1and2 };
