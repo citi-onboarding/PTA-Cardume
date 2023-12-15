@@ -9,7 +9,7 @@ export default function Home() {
       <HomeContainer>
         <Newul> 
           <Newli>
-          <img src={LogoCardume.src} alt="LogoCardume" style={{width: "305", height: "65", marginRight: "300px"}}/>
+          <img src={LogoCardume.src} alt="LogoCardume" style={{width: "305", height: "65", marginRight: "350px"}}/>
           </Newli>
           <Newli>
             <NewLink href= "#section1">Home</NewLink>

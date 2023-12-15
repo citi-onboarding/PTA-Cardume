@@ -5,9 +5,11 @@ export const HomeContainer = styled.div`
   width: 100%;
   height: 20vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background-color: #4C2882;
+  border-bottom: 1px solid #FAFAFA;
 `;
 
 export const Newul = styled.div` 

@@ -9,8 +9,8 @@ const gothamMedium= localFont({
 
 export default function Section1and2() {
   return ( 
-    <Container>
-      <TextContainer className={gothamMedium.className} id="section1">
+    <Container id="section1">
+      <TextContainer className={gothamMedium.className} >
         <TitleText> 
           Registrou <OrangeText>sua marca</OrangeText> por conta
           <br /> própria ou tem uma marca
