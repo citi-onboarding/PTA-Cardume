@@ -1,6 +1,6 @@
 import React from "react";
 import  Image from "next/image";
-import { HomeContainer, Fundo, FalesConosco, Titulo, LinhaFaleConosco, Icones } from "./style";
+import { HomeContainer, Fundo, FalesConosco, Titulo, LinhaFaleConosco, Icones, Infos} from "./style";
 import { LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon } from "../../assets";
 
 export default function Footer(){
@@ -11,27 +11,27 @@ export default function Footer(){
                     <Titulo>Fale conosco</Titulo>
                     <LinhaFaleConosco>
                         <Icones href= "https://citi.org.br/"><Image src={WhatsappIcon} alt = "WhatsappIcon"/></Icones>
-                        81 97339-6758
+                        <Infos>81 97339-6758</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
                         <Icones href= "https://citi.org.br/"><Image src={WebsiteIcon} alt = "WebsiteIcon"/></Icones>
-                        www.monitoresuamarca.com.br
+                        <Infos>www.monitoresuamarca.com.br</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
                         <Icones href= "https://citi.org.br/"><Image src={EmailIcon} alt = "EmailIcon"/></Icones>
-                        cardumepi@gmail.com
+                        <Infos>cardumepi@gmail.com</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
                         <Icones href= "https://citi.org.br/"><Image src={InstagramIcon} alt = "InstagramIcon"/></Icones>
-                        @cardumemarcas
+                        <Infos>@cardumemarcas</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
                         <Icones href= "https://citi.org.br/"><Image src={FacebookIcon} alt = "FacebookIcon"/></Icones>
-                        Cardume Propriedade Intelectual
+                        <Infos>Cardume Propriedade Intelectual</Infos>
                     </LinhaFaleConosco>
                 </FalesConosco>
                 
-                <Image src={LogoCardume} alt = "LogoCardume" style={{width: "325px", height: "252px", marginLeft: "558px", marginRight: "557px", marginTop:"120px", display: "flex"}}/>
+                <Image src={LogoCardume} alt = "LogoCardume" style={{width: "325px", height: "252px", marginLeft: "200px", marginRight: "557px", marginTop:"250px", display: "flex"}}/>
 
             </HomeContainer>
         </Fundo>

@@ -1,6 +1,6 @@
 import { builtinModules } from "module";
 import styled from "styled-components";
-import  Image from "next/image";
+import Image from "next/image";
 import { OndaFooter } from "assets";
 
 
@@ -21,35 +21,42 @@ export const HomeContainer = styled.div`
 `;
 
 export const Titulo = styled.header`
-    display: flex;
     font-size: 20px;
+    font-style: normal;
     font-weight: 900;
     line-height: 20px;
 `;
 
 export const FalesConosco = styled.div`
     display: flex;
-    width: 800px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 250px;
   
 `;
 
 export const LinhaFaleConosco = styled.div`
+    display: flex;
     flex-direction: row;
-    align-items: left;
-    gap: 16px;
+    gap: 30px;
     height: 100%;
     width: 100%;
 `;
 
+
 export const Icones = styled.a`
-    height: 50%;
-    width: 50%;
+
 `;
+
+export const Infos = styled.header`
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px;
+`;
+
+
 
 
   
