@@ -1,16 +1,19 @@
 import styled from "styled-components";
 import { Textura } from "assets";
 
+
 export const HomeContainer = styled.div`
 
 background-color: #fff;
-width: 1440px;
+width: 100%;
 height: 1078px;
 flex-shrink: 0;
 
 background-image: url(${Textura.src});
 //background-repeat: no-repeat;
 //background-size: contain;
+background-size: cover;
+background-position: 0px -500px;
    
 `;
 
@@ -30,7 +33,8 @@ margin-top: 55px;
 
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
-background: var(--dark-moderate-violet-20, rgba(76, 40, 130, 0.20));
+background-color: #d7d0e2;
+
 
 /* Drop shadow */
 box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
@@ -67,7 +71,7 @@ margin-right: 200px;
 `;
 export const RetanguloWrapper = styled.div`
   display: flex;
-  gap: 16px;
+  gap: -20px;
 `;
 export const Retangulo = styled.input`
 width: 550px;
@@ -149,3 +153,27 @@ margin-bottom: 132px;
 z-index: 1;
 `;
 
+export const Botao = styled.button`
+display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 16px;
+border: 1px solid var(--Dark-Moderate-Violet, #4C2882);
+background-color: var(--White-Back, #FAFAFA);
+`;
+
+export const ImgBotao = styled.img`
+width: 112px;
+height: 52px;
+
+`;
+
+export const Space1 = styled.div`
+margin-left: 60px;
+`;
+
+export const Space2 = styled.div`
+margin-: 0px;
+`;
