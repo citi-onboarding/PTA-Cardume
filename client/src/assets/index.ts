@@ -7,6 +7,12 @@ import WebsiteIcon from "./website_icon.png";
 import WhatsappIcon from "./whatsapp_icon.png";
 import LogoCiti from "./CITi.png";
 import Heart from "./Heart.png";
+import Check from "./check.png";
+import ImageDegrade from "./degrade.png";
+import FundoSection2 from "./textura.png";
+import CarroCompras from "./carrinho.png";
+import NavLogo from "./NavLogo.png";
 
-export { OndaFooter, LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon, LogoCiti, Heart};
+export { NavLogo, OndaFooter, LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon, LogoCiti, Heart, Check, ImageDegrade, FundoSection2, CarroCompras};
+
 

@@ -6,7 +6,8 @@ import { OndaFooter } from "assets";
 export const Fundo = styled.div`
     height:563px;
     width: 100%;
-    background-color: #FEFEFE;
+    background-color: transparent;
+    margin-top: -1.5%;
 `;
 
 export const HomeContainer = styled.div`
@@ -14,10 +15,8 @@ export const HomeContainer = styled.div`
     width: 100%;
     background-image: url(${OndaFooter.src});
     background-size: cover;
-    background-position: center; 
     background-repeat: no-repeat;
     display: flex;
-    margin-top: 1px;
 `;
 
 export const Titulo = styled.header`
