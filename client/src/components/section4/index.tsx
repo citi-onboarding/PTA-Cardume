@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeContainer, Box, Titulo, Perguntas, Retangulo, Retangulo1, Retangulo2, Retangulo3, 
-    RetanguloWrapper, Contatos, ImgBotao, Space1, Space2, Perguntas1} from "./style";
+    RetanguloWrapper,  RetanguloWrapper1, Contatos, ImgBotao, Space1, Space2, Perguntas1, Button} from "./style";
     import { Botao } from "assets";
 
 export default function Home() {
@@ -16,22 +16,22 @@ export default function Home() {
                 <Perguntas1>Qual seu nome?</Perguntas1>
                 <Retangulo placeholder="Seu nome"></Retangulo>
                 
+               <RetanguloWrapper1>
+                <Perguntas>Telefone</Perguntas>
+                <Perguntas>Email</Perguntas>
+                </RetanguloWrapper1>
 
                 <RetanguloWrapper>
-                    <Space1>
-                        <Perguntas>Telefone</Perguntas>
-                        <Retangulo1 placeholder="(xx) xxxxx-xxxx" />
-                    </Space1>
-                    <Space2>
-                        <Perguntas>Email</Perguntas>
-                        <Retangulo2 placeholder="exemplo@email.com" />
-                    </Space2>
+                    <Retangulo1 placeholder="(xx) xxxxx-xxxx" />  
+                    
+                    <Retangulo2 placeholder="exemplo@email.com" />
+                   
                 </RetanguloWrapper>
                 <Perguntas>Como podemos de ajudar?</Perguntas>
                 <Retangulo3 placeholder="Digite aqui..."></Retangulo3>
-               <button>
+               <Button>
                 <ImgBotao src={Botao.src} alt="botao_enviar"/>
-               </button> 
+               </Button> 
             </Box>
             </HomeContainer>
     );

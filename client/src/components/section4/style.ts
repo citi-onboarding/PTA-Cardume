@@ -85,7 +85,12 @@ margin-right: 320px;
 `;
 export const RetanguloWrapper = styled.div`
   display: flex;
-  gap: -20px;
+  gap: 16px;
+`;
+
+export const RetanguloWrapper1 = styled.div`
+  display: flex;
+  gap: 0px;
 `;
 export const Retangulo = styled.input`
 width: 550px;
@@ -167,15 +172,16 @@ margin-bottom: 132px;
 z-index: 1;
 `;
 
-export const Botao = styled.button`
+export const Button = styled.button`
 display: flex;
-padding: 16px 24px;
+padding: 0px 0px;
 justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 16px;
 border: 1px solid var(--Dark-Moderate-Violet, #4C2882);
 background-color: var(--White-Back, #FAFAFA);
+margin-left: 430px;
 `;
 
 export const ImgBotao = styled.img`
