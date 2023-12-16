@@ -131,7 +131,7 @@ export const TextBox = styled.div`
   position: absolute;
   width: 650px;
   right: 648px; 
-  top: 520px; 
+  top: 480px; 
   color: var(--Black, #1C1C1C);
   font-family: Gotham Medium, sans-serif;
   font-size: 24px;
@@ -163,7 +163,7 @@ export const TextBox2 = styled.div`
   position: absolute;
   width: 650px;
   right: 50px; 
-  top: 360px;
+  top: 320px;
   text-align: right;
   color: var(--Black, #1C1C1C);
   font-family: Gotham Medium, sans-serif;
@@ -176,10 +176,10 @@ export const TextBox2 = styled.div`
 
 export const Button = styled.button`
   position: absolute;
-  top: 750px;
+  top: 650px;
   right: 148px;
   width: 380px;
-  height: 88px;
+  height: 85px;
   display: flex;
   padding: 24px 32px;
   justify-content: center;

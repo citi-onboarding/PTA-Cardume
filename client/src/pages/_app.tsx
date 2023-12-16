@@ -6,14 +6,13 @@ import theme from "../styles/theme";
 import { StyleSheetManager, ThemeProvider } from "styled-components";
 import localFont from 'next/font/local';
 
+
 const gothamBlack = localFont({
   src: "../assets/gotham-black/Gotham Black Regular.ttf"
 })
-const gothamMedium= localFont({
-  src: "../assets/gotham-medium/Gotham Medium Regular.ttf"
-})
 
-function App({ Component, pageProps }: AppProps ) {
+
+function App({ Component, pageProps }: AppProps) {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>
@@ -26,11 +25,15 @@ function App({ Component, pageProps }: AppProps ) {
           />
           <link rel="apple-touch-icon" href="/img/icon-512.png" />
           <link rel="manifest" href="/manifest.json" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
           <meta name="theme-color" content="#06092B" />
           <meta name="description" content="A simple boilerplate for next.js" />
         </Head>
         <GlobalStyles />
-        <Component {...pageProps} className={gothamBlack.className}/> 
+        <Component {...pageProps} className={gothamBlack.className}/>
       </ThemeProvider>
     </StyleSheetManager>
   );
