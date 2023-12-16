@@ -5,7 +5,7 @@ import { OndaFooter } from "assets";
 
 
 export const Fundo = styled.div`
-    height: 100%;
+    height:563px;
     width: 100%;
     background-color: #FEFEFE;
 `;
@@ -18,9 +18,11 @@ export const HomeContainer = styled.div`
     background-position: center; 
     background-repeat: no-repeat;
     display: flex;
+    margin-top: 1px;
 `;
 
 export const Titulo = styled.header`
+    display: flex;
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
@@ -33,21 +35,19 @@ export const FaleConosco = styled.div`
     align-items: flex-start;
     margin-left: 60px;
     margin-top: 250px;
-  
+    margin-bottom: 500px;
+    gap: 32px
 `;
+
 
 export const LinhaFaleConosco = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 16px;
     height: 100%;
-    width: 100%;
+    width: 200%;
 `;
 
-
-export const Icones = styled.a`
-
-`;
 
 export const Infos = styled.header`
     font-size: 16px;
@@ -57,6 +57,23 @@ export const Infos = styled.header`
 `;
 
 
+export const Creditos = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin-left: -795px;
+    margin-top: 525px;
+    gap: 7px;
+`;
+
+
+export const TextoCreditos = styled.header`
+    color: var(--White-Back, #FAFAFA);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+`;
 
 
   

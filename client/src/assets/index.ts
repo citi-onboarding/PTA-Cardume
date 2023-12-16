@@ -5,6 +5,8 @@ import FacebookIcon from "./facebook_icon.png";
 import InstagramIcon from "./instagram_icon.png";
 import WebsiteIcon from "./website_icon.png";
 import WhatsappIcon from "./whatsapp_icon.png";
+import LogoCiti from "./CITi.png";
+import Heart from "./Heart.png";
 
-export { OndaFooter, LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon};
+export { OndaFooter, LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon, LogoCiti, Heart};
 
