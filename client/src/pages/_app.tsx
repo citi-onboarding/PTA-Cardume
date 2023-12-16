@@ -12,6 +12,7 @@ const gothamBlack = localFont({
   src: "../assets/gotham-black/Gotham Black Regular.ttf"
 })
 
+
 function App({ Component, pageProps }: AppProps) {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
@@ -25,6 +26,10 @@ function App({ Component, pageProps }: AppProps) {
           />
           <link rel="apple-touch-icon" href="/img/icon-512.png" />
           <link rel="manifest" href="/manifest.json" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
           <meta name="theme-color" content="#06092B" />
           <meta name="description" content="A simple boilerplate for next.js" />
         </Head>

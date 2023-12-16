@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Image from "next/image";
 import { OndaFooter } from "assets";
 
-
 export const Fundo = styled.div`
     height:563px;
     width: 100%;
@@ -60,7 +59,7 @@ export const Infos = styled.header`
 export const Creditos = styled.div`
     display: flex;
     flex-direction: row;
-    margin-left: -795px;
+    margin-left: -810px;
     margin-top: 525px;
     gap: 7px;
 `;

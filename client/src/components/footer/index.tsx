@@ -30,9 +30,9 @@ export default function Footer(){
                 <Image src={LogoCardume} alt = "LogoCardume" style={{width: "276.25px", height: "214.2px", marginLeft: "150px", marginRight: "557px", marginTop:"245px", display: "flex"}}/>
                 <Creditos>
                     <TextoCreditos>Made with &lt;/&gt; and  </TextoCreditos>
-                    <Image src={Heart} alt = "Heart" style={{marginTop: "2px"}}/>
+                    <Image src={Heart} alt = "Heart" style={{marginTop: "6px"}}/>
                     <TextoCreditos> by</TextoCreditos>
-                    <Image src={LogoCiti} alt = "LogoCiti"/>
+                    <Image src={LogoCiti} alt = "LogoCiti" style={{marginTop: "5px"}}/>
                 </Creditos>
 
             </HomeContainer>
