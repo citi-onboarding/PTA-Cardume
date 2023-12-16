@@ -22,7 +22,7 @@ export default function Home() {
             <NewLink href= "https://citi.org.br/">Vantagens</NewLink>
             </Newli>
             <Newli>
-            <NewLink href= "https://citi.org.br/">Contato</NewLink>
+            <NewLink href= "#footer">Contato</NewLink>
             </Newli>
         </Newul>
       </HomeContainer>

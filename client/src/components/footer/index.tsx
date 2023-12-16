@@ -5,7 +5,7 @@ import { LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, Whats
 
 export default function Footer(){
     return (
-        <Fundo>
+        <Fundo id="footer">
             <HomeContainer>
                 
                 <FaleConosco>
