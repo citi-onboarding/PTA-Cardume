@@ -7,7 +7,7 @@ export const Fundo = styled.div`
     height:563px;
     width: 100%;
     background-color: transparent;
-    margin-top: -1.5%;
+    margin-top: -1.8%;
 `;
 
 export const HomeContainer = styled.div`
