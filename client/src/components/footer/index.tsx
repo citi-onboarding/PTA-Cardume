@@ -7,26 +7,24 @@ export default function Footer(){
     return (
         <Fundo id="footer">
             <HomeContainer>
-                
                 <FaleConosco>
                     <Titulo>Fale conosco</Titulo>
                     <LinhaFaleConosco>
-                        <a href= "https://citi.org.br/"><Image src={WhatsappIcon} alt = "WhatsappIcon"/></a><Infos>81 97339-6758</Infos>
+                        <a href= "https://citi.org.br/" target="_blank"><Image src={WhatsappIcon} alt = "WhatsappIcon"/></a><Infos>81 97339-6758</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <a href= "https://citi.org.br/"><Image src={WebsiteIcon} alt = "WebsiteIcon"/></a><Infos>www.monitoresuamarca.com.br</Infos>
+                        <a href= "https://citi.org.br/" target="_blank"><Image src={WebsiteIcon} alt = "WebsiteIcon"/></a><Infos>www.monitoresuamarca.com.br</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <a href= "https://citi.org.br/"><Image src={EmailIcon} alt = "EmailIcon"/></a><Infos>cardumepi@gmail.com</Infos>
+                        <a href= "https://citi.org.br/" target="_blank"><Image src={EmailIcon} alt = "EmailIcon"/></a><Infos>cardumepi@gmail.com</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <a href= "https://citi.org.br/"><Image src={InstagramIcon} alt = "InstagramIcon"/></a><Infos>@cardumemarcas</Infos>
+                        <a href= "https://citi.org.br/" target="_blank"><Image src={InstagramIcon} alt = "InstagramIcon"/></a><Infos>@cardumemarcas</Infos>
                     </LinhaFaleConosco>
                     <LinhaFaleConosco>
-                        <a href= "https://citi.org.br/"><Image src={FacebookIcon} alt = "FacebookIcon"/></a><Infos>Cardume Propriedade Intelectual</Infos>
+                        <a href= "https://citi.org.br/" target="_blank"><Image src={FacebookIcon} alt = "FacebookIcon"/></a><Infos>Cardume Propriedade Intelectual</Infos>
                     </LinhaFaleConosco>
                 </FaleConosco>
-                
                 <Image src={LogoCardume} alt = "LogoCardume" style={{width: "276.25px", height: "214.2px", marginLeft: "150px", marginRight: "557px", marginTop:"245px", display: "flex"}}/>
                 <Creditos>
                     <TextoCreditos>Made with &lt;/&gt; and  </TextoCreditos>

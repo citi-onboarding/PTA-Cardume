@@ -17,10 +17,10 @@ function App({ Component, pageProps }: AppProps) {
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Next.js Boilerplate</title>
+          <title> Cardume Marcas </title>
           <link
             rel="shortcut icon"
-            href="/img/icon-192.png"
+            href="/img/vector.svg"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="/img/icon-512.png" />
