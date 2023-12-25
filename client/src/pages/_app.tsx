@@ -17,7 +17,7 @@ function App({ Component, pageProps }: AppProps) {
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>
         <Head>
-          <title> Cardume Marcas </title>
+          <title> Monitore Sua Marca </title>
           <link
             rel="shortcut icon"
             href="/img/vector.svg"
