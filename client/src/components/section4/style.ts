@@ -1,19 +1,23 @@
 import styled from "styled-components";
-import { Textura } from "assets";
+import { FundoSection2 } from "assets";
 
 
 export const HomeContainer = styled.div`
 
 background-color: #fff;
 width: 100%;
+height: 800px;
 flex-shrink: 0;
-background-image: url(${Textura.src});
+background-image: url(${FundoSection2.src});
 background-size: cover;
-background-position: 0px -500px;
+background-position: 0px -200px;
 margin-bottom: -14.8%;
 padding-top: 40px;
 position: relative;
-
+display: flex;
+flex-direction: row;
+gap: 80px;
+align-items: center;
 `;
 
 export const Box = styled.form`
@@ -26,11 +30,26 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 16px;
-margin-left: 80px;
+margin-left: 40px;
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background-color: #d7d0e2;
 box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
+`;
+
+export const SecondBox = styled.form`
+display: flex;
+width: 550px;
+height: 400px;
+padding: 24px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+border-radius: 16px;
+border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
+background-color: #d7d0e2;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-top: -10%;
 `;
 
 export const Titulo = styled.h2`

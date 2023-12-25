@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeContainer, Box, Titulo, Perguntas, Retangulo, Retangulo1, Retangulo2, Retangulo3, 
-    RetanguloWrapper, Button} from "./style";
+    RetanguloWrapper, Button, SecondBox} from "./style";
 import localFont from 'next/font/local';
 import { useState } from 'react';
 import axios from 'axios';
@@ -78,6 +78,9 @@ export default function Section4() {
                         Enviar
                 </Button> 
                 </Box>
+                <SecondBox>
+                  
+                </SecondBox>
             </HomeContainer>
     );
   }
