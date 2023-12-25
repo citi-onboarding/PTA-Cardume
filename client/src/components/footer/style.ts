@@ -17,6 +17,8 @@ export const HomeContainer = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    z-index: 0;
+    position: relative;
 `;
 
 export const Titulo = styled.header`
@@ -72,7 +74,6 @@ export const TextoCreditos = styled.header`
     font-weight: 400;
     line-height: normal;
 `;
-
 
   
   

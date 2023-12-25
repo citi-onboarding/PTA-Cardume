@@ -12,7 +12,10 @@ import ImageDegrade from "./degrade.png";
 import FundoSection2 from "./textura.png";
 import CarroCompras from "./carrinho.png";
 import NavLogo from "./NavLogo.png";
+import Textura from "./Textura.png";
+import Botao from "./Botao.png"
 
-export { NavLogo, OndaFooter, LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon, LogoCiti, Heart, Check, ImageDegrade, FundoSection2, CarroCompras};
-
-
+export {Textura,Botao, NavLogo, OndaFooter, LogoCardume, 
+    EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, 
+    WhatsappIcon, LogoCiti, Heart, Check, ImageDegrade, 
+    FundoSection2, CarroCompras};

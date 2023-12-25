@@ -213,5 +213,5 @@ export const ShoppingCartIcon = styled.img`
 
 // faça com que seja target blank
 export const handleButtonClick = () => {
-    window.open('https://citi.org.br/', '_blank');  
+    window.open('https://pay.kiwify.com.br/AuReH8X', '_blank');  
   };
