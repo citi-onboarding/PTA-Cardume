@@ -54,10 +54,6 @@ export const Button = styled.button`
 
   &:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    border-radius: 16px;
-    border: 1px solid var(--White-Back, #FAFAFA);
-    background: var(--Pure-Orange, #FF9100);
-    color: var(--White-Back, #FAFAFA);
   }
 `;
 
