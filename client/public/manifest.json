@@ -1,6 +1,6 @@
 {
-  "name": "Next.js Boilerplate",
-  "short_name": "Next.js Boilerplate",
+  "name": "Monitore Sua Marca | Cardume",
+  "short_name": "Monitore Sua Marca | Cardume",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "#FFFFFF",
-  "description": "Next.js Boilerplate",
+  "description": "Monitore Sua Marca | Cardume",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B",
