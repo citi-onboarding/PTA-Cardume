@@ -3,8 +3,6 @@ import { CarroCompras2, Update, Notification, Checking, Instructions, Settings,
  PreviousArrow, NextArrow}  from "assets";
 import Image from 'next/image';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import {Item1, Item2, Item3, Item4, Item5, Item6} from './carrossel';
 import { HomeContainer, Titulo, Button, Servico, handleButtonClick, Descricao, Topicos, Subtitle, Destaque, StyledSlider, Infos, Carrossel } from "./style";
 import localFont from 'next/font/local';
