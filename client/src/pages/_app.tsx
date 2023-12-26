@@ -27,14 +27,14 @@ function App({ Component, pageProps }: AppProps) {
             href="/img/vector.svg"
             type="image/x-icon"
           />
-          <link rel="apple-touch-icon" href="/img/icon-512.png" />
+          <link rel="apple-touch-icon" href="/vector.svg" />
           <link rel="manifest" href="/manifest.json" />
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
             rel="stylesheet"
           />
           <meta name="theme-color" content="#06092B" />
-          <meta name="description" content="A simple boilerplate for next.js" />
+          <meta name="description" content="Garanta a segurança de sua marca registrada para sempre!" />
         </Head>
         <GlobalStyles />
         <Component {...pageProps} className={gothamMedium.className}/>
