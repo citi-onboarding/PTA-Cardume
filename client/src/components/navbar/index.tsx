@@ -29,6 +29,9 @@ export const Navbar = () => {
           <Link href={itemLinks[index]} key={index}>
             <li>{item}</li>
           </Link>
+          //    <Newli>
+          //    <NewLink href= {itemLinks[index]} key = {index}>{item}</NewLink>
+          //  </Newli>
         ))}
       </List>
     </ContainerNav>

@@ -27,6 +27,7 @@ export const List = styled.ul<Props>`
 
   li {
     cursor: pointer;
+    list-style: none;
     text-decoration: underline;
     text-decoration-color: #4C2882;
     color: var(--White-Back, #FAFAFA);
