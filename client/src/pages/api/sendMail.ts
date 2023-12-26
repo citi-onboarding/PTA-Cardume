@@ -30,7 +30,7 @@ export default async function handler(req:any, res: any) {
   // Email content
   const mailOptions = {
     from: emailUser,
-    to: 'mariaclara302004@gmail.com',
+    to: 'cardumepi@gmail.com',
     subject: 'Novo contato do site monitoresuamarca.com.br',
     html: `
       <p>Marca: ${marca}</p>
