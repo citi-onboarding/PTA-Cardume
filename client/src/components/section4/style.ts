@@ -210,10 +210,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 100% */
 z-index: 1;
-&:active {
-    border-radius: 16px;
-    border: 1px solid var(--White-Back, #FAFAFA);
-    background: var(--Dark-Moderate-Violet, #4C2882);
-    color: var(--White-Back, #FAFAFA);
+&:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
   }
 `;
