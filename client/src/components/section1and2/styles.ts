@@ -175,6 +175,7 @@ export const TextBox2 = styled.div`
 
 export const Button = styled.button`
   margin-top: 15%;
+  margin-left: 5%;
   width: 380px;
   height: 85px;
   display: flex;
