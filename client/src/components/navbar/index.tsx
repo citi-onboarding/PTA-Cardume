@@ -19,10 +19,10 @@ export default function Home() {
             <NewLink href= "#section2">Serviço</NewLink>
           </Newli>
           <Newli>
-            <NewLink href= "https://citi.org.br/">Vantagens</NewLink>
+            <NewLink href= "#section3">Vantagens</NewLink>
             </Newli>
             <Newli>
-            <NewLink href= "#footer">Contato</NewLink>
+            <NewLink href= "#section4">Contato</NewLink>
             </Newli>
         </Newul>
       </HomeContainer>

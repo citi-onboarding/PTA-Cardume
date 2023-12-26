@@ -5,22 +5,26 @@ import GlobalStyles from "../styles/global";
 import theme from "../styles/theme";
 import { StyleSheetManager, ThemeProvider } from "styled-components";
 import localFont from 'next/font/local';
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const gothamBlack = localFont({
   src: "../assets/gotham-black/Gotham Black Regular.ttf"
 })
 
+const gothamMedium = localFont({
+  src: "../assets/gotham-medium/Gotham Medium Regular.ttf"
+})
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Next.js Boilerplate</title>
+          <title> Monitore Sua Marca | Cardume</title>
           <link
             rel="shortcut icon"
-            href="/img/icon-192.png"
+            href="/img/vector.svg"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="/img/icon-512.png" />
@@ -33,7 +37,7 @@ function App({ Component, pageProps }: AppProps) {
           <meta name="description" content="A simple boilerplate for next.js" />
         </Head>
         <GlobalStyles />
-        <Component {...pageProps} className={gothamBlack.className}/>
+        <Component {...pageProps} className={gothamMedium.className}/>
       </ThemeProvider>
     </StyleSheetManager>
   );

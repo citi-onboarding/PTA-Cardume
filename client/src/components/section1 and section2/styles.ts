@@ -176,8 +176,8 @@ export const TextBox2 = styled.div`
 
 export const Button = styled.button`
   position: absolute;
-  top: 650px;
-  right: 148px;
+  top: 690px;
+  right: 145px;
   width: 380px;
   height: 85px;
   display: flex;
@@ -211,7 +211,6 @@ export const ShoppingCartIcon = styled.img`
   height: 40px;
 `;
 
-// faça com que seja target blank
 export const handleButtonClick = () => {
-    window.open('https://citi.org.br/', '_blank');  
+    window.open('https://pay.kiwify.com.br/AuReH8X', '_blank');  
   };
