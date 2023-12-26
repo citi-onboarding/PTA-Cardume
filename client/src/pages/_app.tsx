@@ -5,12 +5,16 @@ import GlobalStyles from "../styles/global";
 import theme from "../styles/theme";
 import { StyleSheetManager, ThemeProvider } from "styled-components";
 import localFont from 'next/font/local';
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const gothamBlack = localFont({
   src: "../assets/gotham-black/Gotham Black Regular.ttf"
 })
 
+const gothamMedium = localFont({
+  src: "../assets/gotham-medium/Gotham Medium Regular.ttf"
+})
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -33,7 +37,7 @@ function App({ Component, pageProps }: AppProps) {
           <meta name="description" content="A simple boilerplate for next.js" />
         </Head>
         <GlobalStyles />
-        <Component {...pageProps} className={gothamBlack.className}/>
+        <Component {...pageProps} className={gothamMedium.className}/>
       </ThemeProvider>
     </StyleSheetManager>
   );

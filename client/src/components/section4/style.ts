@@ -37,10 +37,10 @@ background-color: #d7d0e2;
 box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
 `;
 
-export const SecondBox = styled.form`
+export const SecondBox = styled.div`
 display: flex;
-width: 550px;
-height: 400px;
+width: 560px;
+height: 420px;
 padding: 24px 16px;
 flex-direction: column;
 align-items: flex-start;
@@ -63,6 +63,35 @@ line-height: 24px; /* 100% */
 margin-bottom: 10px;
 display: flex;
 align-self: flex-start;
+`;
+
+
+export const TituloSec2 = styled.h2`
+color: var(--Dark-Moderate-Violet, #4C2882);
+font-family: Gotham Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; 
+`;
+
+export const Texto = styled.p`
+color: var(--Dark-Moderate-Violet, #4C2882);
+text-align: justify;
+font-family: Gotham Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+`;
+
+export const Destaque = styled.span`
+color: var(--Pure-Orange, #FF9100);
+font-family: Gotham Black;
+font-size: 12px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
 `;
 
 export const Perguntas = styled.a`
@@ -181,4 +210,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 100% */
 z-index: 1;
+&:active {
+    border-radius: 16px;
+    border: 1px solid var(--White-Back, #FAFAFA);
+    background: var(--Dark-Moderate-Violet, #4C2882);
+    color: var(--White-Back, #FAFAFA);
+  }
 `;

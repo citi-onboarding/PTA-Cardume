@@ -32,8 +32,8 @@ export default function Section1and2() {
           <Paragraph><Image src={Check.src} alt="check2" />Monitoramos sua marca registrada 24/7 após a<br /> concessão do registro pelo INPI</Paragraph>
           <Paragraph><Image src={Check.src} alt="check3" />Garantimos que seu esforço na construção e<br /> fortalecimento de sua marca não sejam em vão</Paragraph>
         </Checkout>
-    <Container1 >
-          <TextBox className={gothamMedium.className} id="section2">
+    <Container1 id="section2">
+          <TextBox className={gothamMedium.className} >
                 Agora você pode <OrangeText3>EVITAR tudo isso</OrangeText3> contratando<br />
                 nosso <PurpleText>PLANO DE ACOMPANHAMENTO DE<br />
                 PROCESSOS no INPI.</PurpleText> Com um investimento de<br /> 
