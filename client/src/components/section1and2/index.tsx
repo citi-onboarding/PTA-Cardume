@@ -1,6 +1,6 @@
 import React from "react";
 import { Check, ImageDegrade, CarroCompras } from "assets";
-import { Container1, TextBox, OrangeText3, PurpleText, TextBox2, Button, ButtonText, ShoppingCartIcon, handleButtonClick, Container, TextContainer, Checkout, Header, Paragraph, Image, OrangeText, TitleText, Paragraph2, OrangeText2 } from './styles';
+import { Container1, TextBox, OrangeText3, PurpleText, Second, Side, TextBox2, Button, ButtonText, ShoppingCartIcon, handleButtonClick, Container, TextContainer, Checkout, Header, Paragraph, Image, OrangeText, TitleText, Paragraph2, OrangeText2 } from './styles';
 import localFont from 'next/font/local';
 
 const gothamMedium= localFont({
@@ -10,6 +10,7 @@ const gothamMedium= localFont({
 export default function Section1and2() {
   return ( 
     <Container id="section1">
+      <Side>
       <TextContainer className={gothamMedium.className} >
         <TitleText> 
           Registrou <OrangeText>sua marca</OrangeText> por conta
@@ -31,8 +32,9 @@ export default function Section1and2() {
           <Paragraph><Image src={Check.src} alt="check1" />Monitoramos sua marca em processo de registro 24/7<br /> durante toda a tramitação do pedido no INPI</Paragraph>
           <Paragraph><Image src={Check.src} alt="check2" />Monitoramos sua marca registrada 24/7 após a<br /> concessão do registro pelo INPI</Paragraph>
           <Paragraph><Image src={Check.src} alt="check3" />Garantimos que seu esforço na construção e<br /> fortalecimento de sua marca não sejam em vão</Paragraph>
-        </Checkout>
+        </Checkout></Side>
     <Container1 id="section2">
+      <Side>
           <TextBox className={gothamMedium.className} >
                 Agora você pode <OrangeText3>EVITAR tudo isso</OrangeText3> contratando<br />
                 nosso <PurpleText>PLANO DE ACOMPANHAMENTO DE<br />
@@ -40,7 +42,7 @@ export default function Section1and2() {
                 <OrangeText3>baixíssimo custo</OrangeText3>, você será informado em primeira<br />
                 mão <OrangeText3>SEMPRE</OrangeText3> que o seu processo sofrer qualquer<br /> 
                 movimentação. Isso porque nossos sistemas vão<br /> 
-                trabalhar <PurpleText>24 horas por dia e 7 dias por semana</PurpleText> para 
+                trabalhar <PurpleText>24 horas por dia e 7 dias por semana</PurpleText> para <br></br>
                 você até a decisão final de seu pedido de registro!<br />
                 <br />
                 Para você que já possui o registro de sua marca,<br /> 
@@ -49,6 +51,7 @@ export default function Section1and2() {
                 para responder a Pedidos de Nulidade de Marca<br />
                 (PAN) ou de Caducidade de marca registrada.
           </TextBox>
+          <Second>
           <TextBox2>
                 <OrangeText3>Livre-se da OBRIGAÇÃO</OrangeText3> de acompanhar o seu<br />
                 pedido de registro de marca <OrangeText3>SEMANALMENTE</OrangeText3><br /> 
@@ -60,11 +63,13 @@ export default function Section1and2() {
                 bastante inconveniente, pois vai lhe ROUBAR um<br />
                 tempo que você poderia estar trabalhando para<br />
                 alavancar o seu empreendimento.
-            </TextBox2>
+            </TextBox2>  
             <Button onClick={handleButtonClick}>
                 <ButtonText>Contrate aqui!</ButtonText>
                 <ShoppingCartIcon src={CarroCompras.src} alt="Ícone do Carrinho de Compras" />
-            </Button>
+            </Button> </Second>
+            </Side>
+           
     </Container1>
     </Container>
   );

@@ -1,5 +1,5 @@
 import  Footer  from './footer';
-import  Section1and2  from "./section1 and section2";
+import  Section1and2  from "./section1and2";
 import Navbar from './navbar';
 import Section4 from './section4'
 import  Section3 from './section3';

@@ -33,13 +33,14 @@ export const List = styled.ul<props>`
     font-style: normal;
     font-weight: 900;
     line-height: 24px;
+    text-decoration: none;
     &:hover {
     text-decoration: underline;
     text-decoration-color: #FF9100;
   }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     background-color: #FAFAFA;
     display: ${({ toggle }) => (toggle === 1 ? 'flex' : 'none')};
     flex-direction: column;

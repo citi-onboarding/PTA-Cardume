@@ -4,10 +4,12 @@ import { FundoSection2, ImageDegrade } from 'assets';
 
 export const Container = styled.section`
   width: 100%;
-  height: 995px;
+  height: 1000px;
   display: flex;
   align-items: center;
+  flex-direction: column;
   position: relative;
+  justify-content: space-between;
 
   &::before {
     content: '';
@@ -29,9 +31,8 @@ export const Container = styled.section`
 export const TextContainer = styled.div`
   width: 100%;
   height: 100%;
-  margin-left:4%; 
-  margin-top: 8%; 
   position: relative;
+  margin-right: 5%;
 `;
 
 export const Subtitle = styled.span`
@@ -72,21 +73,16 @@ export const Paragraph = styled.p`
   font-weight: 500;
   line-height: 20px; 
   margin-bottom: 32px;
-  margin-right: 16px;
   display: flex;
   align-items: center;
 `;
 
 export const Checkout = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
-  gap: auto;
-  height: 244px;
-  position: absolute;
-  top: 90px;
   margin-top: -2.5%;
-  left: 730px;
   box-sizing: border-box;
 `;
 
@@ -113,6 +109,7 @@ export const Paragraph2 = styled.p`
   line-height: 24px;
   white-space: nowrap; 
   `;
+
 export const OrangeText2 = styled.span`
   color: var(--Pure-Orange, #FF9100);
   font-family: 'Gotham Black', sans-serif;
@@ -121,23 +118,28 @@ export const OrangeText2 = styled.span`
   line-height: 24px;
   `;
 
-  export const Container1 = styled.section`
+export const Container1 = styled.section`
   position: relative;
-  height: 580px;
+  height: 590px;
+`;
+
+export const Second = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
 `;
 
 
 export const TextBox = styled.div`
-  position: absolute;
-  width: 650px;
-  right: 648px; 
-  top: 480px; 
   color: var(--Black, #1C1C1C);
   font-family: Gotham Medium, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  margin-top: 6%;
 `;
 
 export const OrangeText3 = styled.span`
@@ -160,10 +162,7 @@ export const PurpleText = styled.span`
   white-space: nowrap; 
 `;
 export const TextBox2 = styled.div`
-  position: absolute;
-  width: 650px;
-  right: 50px; 
-  top: 320px;
+
   text-align: right;
   color: var(--Black, #1C1C1C);
   font-family: Gotham Medium, sans-serif;
@@ -175,9 +174,7 @@ export const TextBox2 = styled.div`
 
 
 export const Button = styled.button`
-  position: absolute;
-  top: 690px;
-  right: 145px;
+  margin-top: 15%;
   width: 380px;
   height: 85px;
   display: flex;
@@ -195,6 +192,15 @@ export const Button = styled.button`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
   }
 `;
+
+export const Side = styled.div`
+  padding: 5% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 
 export const ButtonText = styled.span`
   color: var(--White-Back, #FAFAFA);
