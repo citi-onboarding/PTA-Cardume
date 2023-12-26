@@ -11,12 +11,11 @@ flex-shrink: 0;
 background-image: url(${FundoSection2.src});
 background-size: cover;
 background-position: 0px -200px;
-margin-bottom: -14.8%;
 padding-top: 40px;
 position: relative;
 display: flex;
 flex-direction: row;
-gap: 80px;
+justify-content: space-between;
 align-items: center;
 `;
 

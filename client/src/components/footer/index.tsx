@@ -32,7 +32,6 @@ export default function Footer(){
                     <TextoCreditos> by</TextoCreditos>
                     <Image src={LogoCiti} alt = "LogoCiti" style={{marginTop: "5px"}}/>
                 </Creditos>
-
             </HomeContainer>
         </Fundo>
             

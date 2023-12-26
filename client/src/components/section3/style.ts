@@ -10,6 +10,11 @@ background-color: var(--Dark-Moderate-Violet, #4C2882);
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: space-between;
+@media (max-width: 1024px) {
+  height: 2000px;
+}
+
 `;
 
 export const StyledSlider = styled.div`
@@ -27,7 +32,7 @@ font-weight: 900;
 line-height: 36px; 
 display: flex;
 align-self: flex-start;
-margin-left: 80px;
+margin-left: 5%;
 margin-top: 3%;
 `;
 
@@ -41,6 +46,7 @@ export const Button = styled.button`
   gap: 8px;
   margin-top: 2%;
   border-radius: 16px;
+  margin-bottom: 5%;
   border: 1px solid var(--Pure-Orange, #FF9100);
   background: var(--White-Back, #FAFAFA);
   cursor: pointer;
@@ -60,16 +66,23 @@ export const Button = styled.button`
 export const Servico = styled.div`
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: space-between;
 gap: 40px;
 margin: 3% 0;
+@media (max-width: 1024px) {
+  flex-direction: column;
+}
 `;
 
 export const Topicos = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;  
+align-items: center; 
+// se tela menor que 1024px, flex direction row
+@media (max-width: 1024px) {
+  flex-direction: row;
+}
 `;
 
 export const Carrossel = styled.div`

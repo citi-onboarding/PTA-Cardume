@@ -4,7 +4,7 @@ import { CarroCompras2, Update, Notification, Checking, Instructions, Settings,
 import Image from 'next/image';
 import Slider from 'react-slick';
 import {Item1, Item2, Item3, Item4, Item5, Item6} from './carrossel';
-import { HomeContainer, Titulo, Button, Servico, handleButtonClick, Descricao, Topicos, Subtitle, Destaque, StyledSlider, Infos, Carrossel } from "./style";
+import { HomeContainer, Titulo, Button, Servico, handleButtonClick, Descricao, Topicos, Subtitle, Destaque, StyledSlider} from "./style";
 import localFont from 'next/font/local';
 
 const gothamMedium= localFont({
@@ -36,6 +36,29 @@ export default function Section3() {
         centerPadding: '0',    
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,                
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,                
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,                
+              }
+            }
+          ]
       };
     return (
         <HomeContainer id='section3' className={gothamMedium.className}>

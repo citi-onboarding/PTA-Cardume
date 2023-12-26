@@ -1,13 +1,16 @@
 import { builtinModules } from "module";
 import styled from "styled-components";
 import Image from "next/image";
-import { OndaFooter } from "assets";
+import { OndaFooter, FundoSection2 } from "assets";
 
 export const Fundo = styled.div`
     height:563px;
     width: 100%;
-    background-color: transparent;
-    margin-top: -1.8%;
+    background-image: url(${FundoSection2.src});
+    background-position: 0px -60px;
+    background-color: white;
+    margin-top: -13%;
+
 `;
 
 export const HomeContainer = styled.div`
@@ -34,7 +37,7 @@ export const FaleConosco = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin-left: 60px;
-    margin-top: 250px;
+    margin-top: 20%;
     margin-bottom: 500px;
     gap: 32px
 `;
