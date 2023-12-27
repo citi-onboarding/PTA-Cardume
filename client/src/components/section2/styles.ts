@@ -4,12 +4,12 @@ import { FundoSection2 } from 'assets';
 
 export const Container1 = styled.div`
   width: 100%;
-  height: 810px;
+  height: 950px;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-image: url(${FundoSection2.src});
   background-color: #FAFAFA;
   background-size: cover;
@@ -19,6 +19,7 @@ export const Container1 = styled.div`
   margin-top: -20%;
   @media (max-width: 1024px) {
     height: 900px; 
+    width: 100%;
     justify-content: center; }
 `;
 
@@ -100,7 +101,7 @@ export const Button = styled.button`
   }
   @media (max-width: 1024px) {
     margin-top: 5%;
-    width: 350px;
+    width:100%;
     height: 70px;
   }
 `;

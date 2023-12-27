@@ -67,7 +67,7 @@ export default function Section3() {
                 <Item5 />
                 <Item6 />
             </Slider></StyledSlider>
-            <Titulo style={{marginTop:"-12%"}} >E como funciona esse serviço?</Titulo> 
+            <Titulo >E como funciona esse serviço?</Titulo> 
             <Servico>
                 <Topicos>
                 <Image src={Instructions} alt="Atualização" />

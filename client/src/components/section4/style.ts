@@ -15,9 +15,11 @@ padding-top: 40px;
 position: relative;
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content:center;
+gap:5%;
 align-items: center;
 @media (max-width: 1024px) {
+  width: 100%;
   padding-top: 10%;
   flex-direction: column;
   height: 1300px;
@@ -36,14 +38,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 16px;
-margin-left: 40px;
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background-color: #d7d0e2;
 box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
 @media (max-width: 1024px) {
-width: 560px; 
-margin-left: 0px;}
+  width: 50%; 
+  margin-left: 0px;}
 `;
 
 export const SecondBox = styled.div`
@@ -154,7 +155,7 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   line-height: 16px; /* 100% */
 }
 @media (max-width: 1024px) {
-width: 424px;  }
+width: 50%;  }
 `;
 
 
@@ -181,7 +182,7 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   line-height: 16px; /* 100% */
 }
 @media (max-width: 1024px) {
-width: 424px;  }
+width: 50%  }
 margin-left: 0px;
 margin-bottom: 2%;
 `;
@@ -201,8 +202,8 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   outline: none;
 }
 @media (max-width: 1024px) {
-width: 424px;
- margin-left: 0px;  }
+  width: 50%;
+  margin-left: 0px;  }
 `;
 
 export const Retangulo3 = styled.input`
@@ -218,7 +219,7 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   outline: none;
 }
 @media (max-width: 1024px) {
-width: 424px;  }
+width: 50%;  }
 `;
 
 export const Button = styled.button`

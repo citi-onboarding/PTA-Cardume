@@ -4,7 +4,6 @@ export const HomeContainer = styled.div`
 width: 100%;
 height: 1090px;
 flex-shrink: 0;
-flex-shrink: 0;
 background-color: var(--Dark-Moderate-Violet, #4C2882);
 display: flex;
 flex-direction: column;
@@ -12,6 +11,7 @@ align-items: center;
 justify-content: space-between;
 @media (max-width: 1024px) {
   height: 1800px;
+  width: 100%;
   justify-content: center;
 }
 
@@ -63,6 +63,8 @@ export const Button = styled.button`
 `;
 
 export const Servico = styled.div`
+width: 100%;
+padding: 0 5%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
