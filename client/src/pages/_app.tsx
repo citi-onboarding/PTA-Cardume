@@ -37,7 +37,7 @@ function App({ Component, pageProps }: AppProps) {
           <meta name="description" content="Garanta a segurança de sua marca registrada para sempre!" />
         </Head>
         <GlobalStyles />
-        <Component {...pageProps} className={gothamMedium.className}/>
+        <Component {...pageProps}/>
       </ThemeProvider>
     </StyleSheetManager>
   );

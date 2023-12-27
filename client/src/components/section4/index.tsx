@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeContainer, Box, Titulo, Perguntas, Retangulo, Retangulo1, Retangulo2, Retangulo3, 
+import { HomeContainer, Box, Titulo, Perguntas, Retangulo, Retangulo1, Retangulo2, Retangulo3, Wrapper,
     RetanguloWrapper, Button, SecondBox, TituloSec2, Destaque, Texto} from "./style";
 import localFont from 'next/font/local';
 import { useState } from 'react';
@@ -74,15 +74,15 @@ export default function Section4() {
                     <Retangulo placeholder="Seu ramo de atuação" id="ramo" value={formData.ramo} onChange={handleChange} ></Retangulo>
                     <Perguntas>Qual seu nome?</Perguntas>
                     <Retangulo placeholder="Seu nome" id="nome" value={formData.nome} onChange={handleChange} ></Retangulo>
-                    <RetanguloWrapper>
-                        <div>
+                    <Wrapper>
+                       <RetanguloWrapper>
                         <Perguntas>Telefone</Perguntas>
                         <Retangulo1 placeholder="(xx) xxxxx-xxxx" id="phone" value={formData.phone} onChange={handleChange} />
-                        </div>
-                         <div><Perguntas style={{marginLeft:"-2%"}}>Email</Perguntas>
+                        </RetanguloWrapper>
+                         <RetanguloWrapper><Perguntas style={{marginLeft:"-2%"}}>Email</Perguntas>
                         <Retangulo2 placeholder="exemplo@email.com" id="email" value={formData.email} onChange={handleChange} /> 
-                        </div>
-                    </RetanguloWrapper>
+                        </RetanguloWrapper>
+                    </Wrapper>
                     <Perguntas>Como podemos de ajudar?</Perguntas>
                     <Retangulo3 placeholder="Digite aqui..." id="message" value={formData.message} onChange={handleChange} ></Retangulo3>
                 <Button className={gothamMedium.className} type="submit">

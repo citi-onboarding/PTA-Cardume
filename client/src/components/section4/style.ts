@@ -4,7 +4,7 @@ import { FundoSection2 } from "assets";
 
 export const HomeContainer = styled.div`
 
-background-color: #fff;
+background-color: #FAFAFA;
 width: 100%;
 height: 800px;
 flex-shrink: 0;
@@ -17,6 +17,13 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+@media (max-width: 1024px) {
+  padding-top: 10%;
+  flex-direction: column;
+  height: 1300px;
+  justify-content: center;
+  gap: 10%;
+  }
 `;
 
 export const Box = styled.form`
@@ -34,6 +41,9 @@ border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background-color: #d7d0e2;
 box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
+@media (max-width: 1024px) {
+width: 560px; 
+margin-left: 0px;}
 `;
 
 export const SecondBox = styled.div`
@@ -103,11 +113,29 @@ font-weight: 900;
 line-height: 20px; /* 100% */
 margin-left: 18px;
 align-self: flex-start;
+@media (max-width: 1024px) {
+align-self: center; 
+margin-left: 0px;}
 `;
+
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-left: -4%;
+  gap:4%;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    margin-left: 0px;
+    gap: 0px;
+  }
+  `;
 
 export const RetanguloWrapper = styled.div`
   display: flex;
+  flex-direction: column;
 `;
+
 
 
 export const Retangulo = styled.input`
@@ -117,7 +145,7 @@ flex-shrink: 0;
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background: var(--White-Back, #FAFAFA);
-padding: 10px; /* Adicionando espaço interno ao input */
+padding: 10px;
 font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
 
 &:focus {
@@ -132,6 +160,8 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   font-weight: 500;
   line-height: 16px; /* 100% */
 }
+@media (max-width: 1024px) {
+width: 424px;  }
 `;
 
 
@@ -141,10 +171,9 @@ height: 48px;
 flex-shrink: 0;
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
-margin-left: 5%;
 margin-top: 4%;
 background: var(--White-Back, #FAFAFA);
-padding: 10px; /* Adicionando espaço interno ao input */
+padding: 10px;
 font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
 
 &:focus {
@@ -159,6 +188,10 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   font-weight: 500;
   line-height: 16px; /* 100% */
 }
+@media (max-width: 1024px) {
+width: 424px;  }
+margin-left: 0px;
+margin-bottom: 2%;
 `;
 
 
@@ -167,15 +200,17 @@ width: 324px;
 height: 48px;
 flex-shrink: 0;
 border-radius: 16px;
-margin-left: -5%;
-margin-top: 4%;
+margin-top: 3%;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background: var(--White-Back, #FAFAFA);
-padding: 10px; /* Adicionando espaço interno ao input */
+padding: 10px;
 font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
 &:focus {
   outline: none;
 }
+@media (max-width: 1024px) {
+width: 424px;
+ margin-left: 0px;  }
 `;
 
 export const Retangulo3 = styled.input`
@@ -185,11 +220,13 @@ flex-shrink: 0;
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background: var(--White-Back, #FAFAFA);
-padding: 10px; /* Adicionando espaço interno ao input */
+padding: 10px;
 font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
 &:focus {
   outline: none;
 }
+@media (max-width: 1024px) {
+width: 424px;  }
 `;
 
 export const Button = styled.button`

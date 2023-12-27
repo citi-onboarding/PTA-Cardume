@@ -11,7 +11,8 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 @media (max-width: 1024px) {
-  height: 2000px;
+  height: 1800px;
+  justify-content: center;
 }
 
 `;
@@ -20,6 +21,7 @@ export const StyledSlider = styled.div`
 width: 80%;
 height: 50%;
 margin-top: 3%;
+
 `;
 
 export const Titulo = styled.h2`
