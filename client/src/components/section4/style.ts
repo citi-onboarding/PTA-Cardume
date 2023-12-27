@@ -21,7 +21,7 @@ align-items: center;
 @media (max-width: 1024px) {
   width: 100%;
   flex-direction: column;
-  height: 1750px;
+  height: 1700px;
   justify-content: flex-start;
   }
 `;
