@@ -20,6 +20,7 @@ align-items: center;
 @media (max-width: 1024px) {
   width: 100%;
   flex-direction: column;
+  padding-top: 2%;
   height: 1650px;
   justify-content: flex-start;
   }
