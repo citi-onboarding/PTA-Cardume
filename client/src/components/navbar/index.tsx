@@ -10,7 +10,9 @@ export const Navbar = () => {
   const handleToggle = () => {
     setToggle(!toggle); 
   };
-
+  const handleLinkClick = () => {
+    setToggle(false);
+  };
   const listItem = ['Home', 'Serviço', 'Vantagens', 'Contato'];
   const itemLinks = ['section1', 'section2', 'section3', 'section4'];
 
@@ -32,6 +34,7 @@ export const Navbar = () => {
               smooth={true}
               duration={500}
               spy={true}
+              onClick={handleLinkClick}
             >
               {item}
             </ScrollLink>
