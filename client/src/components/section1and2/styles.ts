@@ -37,7 +37,6 @@ export const TextContainer = styled.div`
 
 export const Subtitle = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
@@ -45,9 +44,8 @@ export const Subtitle = styled.span`
 `;
 
 export const Header = styled.div`
-  font-family: "Gotham Black", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
@@ -58,16 +56,14 @@ export const Header = styled.div`
 
 export const TitleText = styled.h1`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 36px;
   white-space: nowrap; 
 `;
 
 export const Paragraph = styled.p`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 20px;
   font-style: auto;
   font-weight: 500;
@@ -95,7 +91,6 @@ export const Image = styled.img`
 
 export const OrangeText = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Black', sans-serif;
   font-size: 36px;
   font-weight: 900;
   line-height: 36px;
@@ -103,7 +98,6 @@ export const OrangeText = styled.span`
 
 export const Paragraph2 = styled.p`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 24px;
@@ -112,7 +106,6 @@ export const Paragraph2 = styled.p`
 
 export const OrangeText2 = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
   font-weight: 900;
   line-height: 24px;
@@ -134,7 +127,6 @@ export const Second = styled.div`
 
 export const TextBox = styled.div`
   color: var(--Black, #1C1C1C);
-  font-family: Gotham Medium, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +136,6 @@ export const TextBox = styled.div`
 
 export const OrangeText3 = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: Gotham Black, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
@@ -154,7 +145,6 @@ export const OrangeText3 = styled.span`
 
 export const PurpleText = styled.span`
   color: var(--Dark-Moderate-Violet, #4C2882);
-  font-family: Gotham Black, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
@@ -206,7 +196,6 @@ export const Side = styled.div`
 export const ButtonText = styled.span`
   color: var(--White-Back, #FAFAFA);
   width: 100%;
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
