@@ -26,6 +26,8 @@ export const TextContainer = styled.div`
   height: 100%;
   @media (max-width: 1024px) {
     width: 80%;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -59,8 +61,11 @@ export const TitleText = styled.h1`
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
+  width: 100%;
+  white-space: nowrap;
   @media (max-width: 1024px) {
     font-size: 30px;
+    white-space:normal ;
     }
 `;
 
@@ -69,8 +74,10 @@ export const Paragraph2 = styled.p`
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
+  white-space: nowrap;
   @media (max-width: 1024px) {
     font-size: 20px;
+    white-space:normal ;
   }
   `;
 
