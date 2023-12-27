@@ -79,7 +79,7 @@ export default function Section4() {
                         <Retangulo2 placeholder="exemplo@email.com" id="email" value={formData.email} onChange={handleChange} /> 
                         </RetanguloWrapper>
                     </Wrapper>
-                    <Perguntas>Como podemos de ajudar?</Perguntas>
+                    <Perguntas>Como podemos te ajudar?</Perguntas>
                     <Retangulo3 placeholder="Digite aqui..." id="message" value={formData.message} onChange={handleChange} ></Retangulo3>
                 <Button  type="submit">
                         Enviar
