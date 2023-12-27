@@ -21,7 +21,8 @@ align-items: center;
   width: 100%;
   flex-direction: column;
   padding-top: 5%;
-  height: 1650px;
+  background-position: 0px 0px;
+  height: 1655px;
   justify-content: flex-start;
   }
 `;
