@@ -25,7 +25,7 @@ export const HomeContainer = styled.div`
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
-    gap:15%;
+    gap:10%;
     @media (max-width: 1024px) {
     padding-top: 3%;
     width: 100%;
