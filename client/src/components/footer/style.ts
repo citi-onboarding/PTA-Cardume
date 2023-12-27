@@ -40,9 +40,8 @@ export const Titulo = styled.header`
     display: flex;
     font-size: 20px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 20px;
-    font-family: Gotham Medium;
     color: #FAFAFA;
     margin-bottom: 5%;
 `;
@@ -69,9 +68,8 @@ export const LinhaFaleConosco = styled.div`
 export const Infos = styled.header`
     font-size: 16px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 16px;
-    font-family: Gotham Medium;
     color: #FAFAFA;
 `;
 

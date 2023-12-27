@@ -5,11 +5,6 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import {Item1, Item2, Item3, Item4, Item5, Item6} from './carrossel';
 import { HomeContainer, Titulo, Button, Servico, handleButtonClick, Descricao, Topicos, Subtitle, Destaque, StyledSlider} from "./style";
-import localFont from 'next/font/local';
-
-const gothamMedium= localFont({
-    src: "../../assets/gotham-medium/Gotham Medium Regular.ttf"
-})
 
 
 function SampleNextArrow(props: any) {
@@ -61,7 +56,7 @@ export default function Section3() {
           ]
       };
     return (
-        <HomeContainer id='section3' className={gothamMedium.className}>
+        <HomeContainer id='section3' >
            <Titulo>Quais são as vantagens de contratar esse serviço?</Titulo> 
             <StyledSlider>
             <Slider {...settings}>
@@ -95,7 +90,7 @@ export default function Section3() {
                <Descricao>Seja avisado por e-mail sempre que houver qualquer movimentação em seu pedido de registro</Descricao>
                 </Topicos>
             </Servico>
-            <Subtitle className={gothamMedium.className}><Destaque>Clique no link, </Destaque>contrate o monitoramento de seu pedido de registro e livre-se da obrigação de acompanhar o <br></br>
+            <Subtitle ><Destaque>Clique no link, </Destaque>contrate o monitoramento de seu pedido de registro e livre-se da obrigação de acompanhar o <br></br>
             andamento do seu pedido até a decisão final do INPI. Garanta a segurança de sua marca já registrada para sempre!</Subtitle>
             <Button onClick={handleButtonClick}>
                 Contrate aqui!

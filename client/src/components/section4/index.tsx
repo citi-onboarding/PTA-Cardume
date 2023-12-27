@@ -1,13 +1,9 @@
 import React from "react";
 import { HomeContainer, Box, Titulo, Perguntas, Retangulo, Retangulo1, Retangulo2, Retangulo3, Wrapper,
     RetanguloWrapper, Button, SecondBox, TituloSec2, Destaque, Texto} from "./style";
-import localFont from 'next/font/local';
 import { useState } from 'react';
 import axios from 'axios';
 
-const gothamMedium= localFont({
-    src: "../../assets/gotham-medium/Gotham Medium Regular.ttf"
-})
 
 export default function Section4() {
 
@@ -85,11 +81,11 @@ export default function Section4() {
                     </Wrapper>
                     <Perguntas>Como podemos de ajudar?</Perguntas>
                     <Retangulo3 placeholder="Digite aqui..." id="message" value={formData.message} onChange={handleChange} ></Retangulo3>
-                <Button className={gothamMedium.className} type="submit">
+                <Button  type="submit">
                         Enviar
                 </Button> 
                 </Box>
-                <SecondBox className={gothamMedium.className}>
+                <SecondBox >
                   <TituloSec2>Condições de uso do serviço</TituloSec2>
                   <Texto >Os planos de acompanhamento de marcas são serviços oferecidos aos titulares 
                   de processos de registro de marca no INPI (em tramitação ou concedidos) e 

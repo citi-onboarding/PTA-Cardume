@@ -26,10 +26,9 @@ margin-top: 3%;
 
 export const Titulo = styled.h2`
 color: var(--pure-orange-80, rgba(255, 145, 0, 0.80));
-font-family: Gotham Black;
 font-size: 36px;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 line-height: 36px; 
 display: flex;
 align-self: flex-start;
@@ -53,10 +52,9 @@ export const Button = styled.button`
   cursor: pointer;
   transition: box-shadow 0.1s ease; 
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 36px;
 
   &:hover {
@@ -96,10 +94,9 @@ export const Descricao = styled.p`
 width: 200px;
 color: var(--White-Back, #FAFAFA);
 text-align: center;
-font-family: Gotham Medium;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 20px; /* 100% */
 `;
 
@@ -107,18 +104,16 @@ export const Infos = styled.p`
 width: 300px;
 color: var(--White-Back, #FAFAFA);
 text-align: center;
-font-family: Gotham Medium;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 20px;
 `;
 export const Subtitle = styled.p`
 color: var(--Pure-Orange, #FF9100);
-font-family: Gotham Medium;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 20px;
 text-align: center;
 
@@ -126,10 +121,9 @@ text-align: center;
 export const Destaque = styled.span`
 color: var(--Pure-Orange, #FF9100);
 text-align: center;
-font-family: Gotham Black;
 font-size: 20px;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 line-height: 20px; /* 100% */
 `;
 

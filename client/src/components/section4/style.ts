@@ -63,11 +63,9 @@ margin-top: -10%;
 
 export const Titulo = styled.h2`
 color: var(--Pure-Orange, #FF9100);
-/* Subtítulo* */
-font-family: Gotham Black;
 font-size: 24px;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 line-height: 24px; /* 100% */
 margin-bottom: 10px;
 display: flex;
@@ -77,39 +75,35 @@ align-self: flex-start;
 
 export const TituloSec2 = styled.h2`
 color: var(--Dark-Moderate-Violet, #4C2882);
-font-family: Gotham Medium;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 16px; 
 `;
 
 export const Texto = styled.p`
 color: var(--Dark-Moderate-Violet, #4C2882);
 text-align: justify;
-font-family: Gotham Medium;
 font-size: 12px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 `;
 
 export const Destaque = styled.span`
 color: var(--Pure-Orange, #FF9100);
-font-family: Gotham Black;
 font-size: 12px;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 line-height: normal;
 `;
 
 export const Perguntas = styled.a`
 z-index: 1;
 color: var(--Moderate-Violet, #713AC4);
-font-family: Gotham Black;
 font-size: 20px;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 line-height: 20px; /* 100% */
 margin-left: 18px;
 align-self: flex-start;
@@ -143,6 +137,7 @@ width: 550px;
 height: 48px;
 flex-shrink: 0;
 border-radius: 16px;
+font-weight: 400;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background: var(--White-Back, #FAFAFA);
 padding: 10px;
@@ -153,11 +148,9 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
 }
 ::placeholder {
   color: var(--Gray-3, #AAA);
-  /* Subtexto */
-  font-family: Gotham Medium;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 16px; /* 100% */
 }
 @media (max-width: 1024px) {
@@ -182,10 +175,9 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
 ::placeholder {
   color: var(--Gray-3, #AAA);
   /* Subtexto */
-  font-family: Gotham Medium;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 16px; /* 100% */
 }
 @media (max-width: 1024px) {
@@ -240,10 +232,9 @@ border: 1px solid var(--Dark-Moderate-Violet, #4C2882);
 background-color: var(--White-Back, #FAFAFA);
 margin-left: 430px;
 color: var(--Dark-Moderate-Violet, #4C2882);
-font-family: Gotham Medium;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: 20px; /* 100% */
 z-index: 1;
 &:active {

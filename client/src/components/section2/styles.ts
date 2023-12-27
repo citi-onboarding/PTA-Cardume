@@ -15,7 +15,7 @@ export const Container1 = styled.div`
   background-size: cover;
   background-position: 0px -200px;
   z-index: 0;
-  padding-top: 16%;
+  padding-top: 14%;
   margin-top: -20%;
   @media (max-width: 1024px) {
     height: 900px; 
@@ -24,10 +24,9 @@ export const Container1 = styled.div`
 
 export const TextBox = styled.div`
   color: var(--Black, #1C1C1C);
-  font-family: Gotham Medium, sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   margin-top: 8%;
   @media (max-width: 1024px) {
@@ -46,10 +45,9 @@ export const Second = styled.div`
 
 export const OrangeText3 = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: Gotham Black, sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 24px;
   white-space: nowrap;
   @media (max-width: 1024px) {
@@ -58,10 +56,9 @@ export const OrangeText3 = styled.span`
 
 export const PurpleText = styled.span`
   color: var(--Dark-Moderate-Violet, #4C2882);
-  font-family: Gotham Black, sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 24px;
   white-space: nowrap; 
   @media (max-width: 1024px) {
@@ -71,10 +68,9 @@ export const TextBox2 = styled.div`
 
   text-align: right;
   color: var(--Black, #1C1C1C);
-  font-family: Gotham Medium, sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   @media (max-width: 1024px) {
     text-align: left;
@@ -124,10 +120,9 @@ export const Side = styled.div`
 export const ButtonText = styled.span`
   color: var(--White-Back, #FAFAFA);
   width: 100%;
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 36px;
   @media (max-width: 1024px) {
     font-size: 30px;  }

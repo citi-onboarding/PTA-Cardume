@@ -1,17 +1,12 @@
 import React from "react";
 import { Check, ImageDegrade, CarroCompras } from "assets";
 import { Side, Container, TextContainer, Checkout, Header, Paragraph, Image, OrangeText, TitleText, Paragraph2, OrangeText2 } from './styles';
-import localFont from 'next/font/local';
-
-const gothamMedium= localFont({
-  src: "../../assets/gotham-medium/Gotham Medium Regular.ttf"
-})
 
 export default function Section1() {
   return ( 
     <Container id="section1">
       <Side>
-      <TextContainer className={gothamMedium.className} >
+      <TextContainer >
         <TitleText> 
           Registrou <OrangeText>sua marca</OrangeText> por conta
           <br /> própria ou tem uma marca
@@ -20,7 +15,7 @@ export default function Section1() {
           <br /> qualquer movimentação que ela
           <br /> venha a sofrer?
         </TitleText>
-        <Paragraph2 className={gothamMedium.className}>
+        <Paragraph2>
           <br />Oferecemos <OrangeText2>planos de monitoramento</OrangeText2> para que
           <br /> empreendedores e empresas acompanhem seus
           <br /> processos de registro ou suas marcas registradas

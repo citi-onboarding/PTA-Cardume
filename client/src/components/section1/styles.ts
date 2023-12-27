@@ -27,10 +27,9 @@ export const TextContainer = styled.div`
 
 export const Subtitle = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 24px;
   @media (max-width: 1024px) {
     font-size: 20px;
@@ -38,9 +37,8 @@ export const Subtitle = styled.span`
 `;
 
 export const Header = styled.div`
-  font-family: "Gotham Black", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
@@ -54,9 +52,8 @@ export const Header = styled.div`
 
 export const TitleText = styled.h1`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 36px;
   white-space: nowrap; 
   @media (max-width: 1024px) {
@@ -66,9 +63,8 @@ export const TitleText = styled.h1`
 
 export const Paragraph = styled.p`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px; 
   margin-bottom: 32px;
   width: 105%;
@@ -101,9 +97,8 @@ export const Image = styled.img`
 
 export const OrangeText = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Black', sans-serif;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 36px;
   @media (max-width: 1024px) {
     font-size: 30px;
@@ -112,9 +107,8 @@ export const OrangeText = styled.span`
 
 export const Paragraph2 = styled.p`
   color: var(--White-Back, #FAFAFA);
-  font-family: 'Gotham Medium', sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   white-space: nowrap; 
   @media (max-width: 1024px) {
@@ -124,9 +118,8 @@ export const Paragraph2 = styled.p`
 
 export const OrangeText2 = styled.span`
   color: var(--Pure-Orange, #FF9100);
-  font-family: 'Gotham Black', sans-serif;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 24px;
   @media (max-width: 1024px) {
     font-size: 20px;

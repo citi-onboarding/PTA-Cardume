@@ -1,17 +1,12 @@
 import React from "react";
 import { Check, ImageDegrade, CarroCompras } from "assets";
 import { Container1, TextBox, OrangeText3, PurpleText, Second, Side, TextBox2, Button, ButtonText, ShoppingCartIcon, handleButtonClick } from './styles';
-import localFont from 'next/font/local';
-
-const gothamMedium= localFont({
-  src: "../../assets/gotham-medium/Gotham Medium Regular.ttf"
-})
 
 export default function Section2() {
   return ( 
     <Container1 id="section2">
       <Side>
-          <TextBox className={gothamMedium.className} >
+          <TextBox  >
                 Agora você pode <OrangeText3>EVITAR tudo isso</OrangeText3> contratando<br />
                 nosso <PurpleText>PLANO DE ACOMPANHAMENTO DE<br />
                 PROCESSOS no INPI.</PurpleText> Com um investimento de<br /> 
