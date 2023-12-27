@@ -4,22 +4,20 @@ import { FundoSection2 } from 'assets';
 
 export const Container1 = styled.div`
   width: 100%;
-  height: 950px;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-image: url(${FundoSection2.src});
   background-color: #FAFAFA;
   background-size: cover;
   background-position: 0px -200px;
-  z-index: 0;
   padding-top: 14%;
-  margin-top: -20%;
+  margin-top: -22%;
   @media (max-width: 1024px) {
     height: 900px; 
-    width: 100%;
     justify-content: center; }
 `;
 
@@ -101,7 +99,7 @@ export const Button = styled.button`
   }
   @media (max-width: 1024px) {
     margin-top: 5%;
-    width:100%;
+    width: 350px;
     height: 70px;
   }
 `;
@@ -137,3 +135,5 @@ export const ShoppingCartIcon = styled.img`
 export const handleButtonClick = () => {
     window.open('https://pay.kiwify.com.br/AuReH8X', '_blank');  
   };
+
+

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
 width: 100%;
-height: 1090px;
+min-height: 90vh;
 flex-shrink: 0;
 background-color: var(--Dark-Moderate-Violet, #4C2882);
 display: flex;

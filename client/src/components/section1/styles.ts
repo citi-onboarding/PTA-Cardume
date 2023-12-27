@@ -9,14 +9,13 @@ export const Container = styled.section`
   position: relative;
   justify-content: space-between;
   width: 100%;
-  height: 580px;
   z-index: 2; 
   background-image: url(${ImageDegrade.src});
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 85vh;
   @media (max-width: 1024px) {
     height: 920px;
-    width: 100%;
     justify-content: center;
   }
 `;
@@ -94,9 +93,6 @@ export const Image = styled.img`
   height: 40px;
   margin-right: 16px; 
   vertical-align: middle;
-  @media (max-width: 1024px) {
-    margin-right: 0;
-  }
 `;
 
 export const OrangeText = styled.span`

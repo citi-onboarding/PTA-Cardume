@@ -6,7 +6,7 @@ export const HomeContainer = styled.div`
 
 background-color: #FAFAFA;
 width: 100%;
-height: 800px;
+min-height: 100vh;
 flex-shrink: 0;
 background-image: url(${FundoSection2.src});
 background-size: cover;

@@ -13,13 +13,12 @@ export const Fundo = styled.div`
 `;
 
 export const HomeContainer = styled.div`
-    height: 100%;
+    min-height: 85vh;
     width: 100%;
     background-image: url(${OndaFooter.src});
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    z-index: 0;
     position: relative;
     flex-direction: row;
     align-items: flex-end;
