@@ -17,7 +17,7 @@ export const Container1 = styled.div`
   padding-top: 14%;
   margin-top: -22%;
   @media (max-width: 1024px) {
-    height: 1300px; 
+    height: 1500px; 
     justify-content: center;
     align-items: center; }
 `;
@@ -99,7 +99,8 @@ export const Button = styled.button`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
   }
   @media (max-width: 1024px) {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-left: 0%;
     width: 350px;
     height: 70px;
   }
@@ -112,7 +113,7 @@ export const Side = styled.div`
   justify-content: space-between;
   align-items: center;
   @media (max-width: 1024px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
 

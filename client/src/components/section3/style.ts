@@ -33,6 +33,11 @@ display: flex;
 align-self: flex-start;
 margin-left: 5%;
 margin-top: 3%;
+@media (max-width: 1024px) {
+  font-size: 30px;
+  margin-left: 0%;
+  margin-top: 5%;
+}
 `;
 
 export const Button = styled.button`

@@ -21,9 +21,8 @@ align-items: center;
 @media (max-width: 1024px) {
   width: 100%;
   flex-direction: column;
-  height: 1500px;
+  height: 1750px;
   justify-content: flex-start;
-  gap: 10%;
   }
 `;
 

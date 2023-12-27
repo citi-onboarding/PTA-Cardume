@@ -32,7 +32,7 @@ export const HomeContainer = styled.div`
     height: 565px; 
     background-image: none;
     background-color: #4C2882;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column; }
 
@@ -87,7 +87,7 @@ export const Creditos = styled.div`
     align-items:center;
     gap: 7px;
     @media (max-width: 1024px) {
-        margin-top: 0%;
+        margin-top: 5%;
     }
 `;
 

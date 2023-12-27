@@ -15,13 +15,14 @@ export const Container = styled.section`
   background-size: cover;
   min-height: 85vh;
   @media (max-width: 1024px) {
-    height: 980px;
+    height: 1200px;
     justify-content: center;
   }
 `;
 
 export const TextContainer = styled.div`
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   @media (max-width: 1024px) {
     width: 80%;
@@ -58,11 +59,20 @@ export const TitleText = styled.h1`
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
-  white-space: nowrap; 
   @media (max-width: 1024px) {
     font-size: 30px;
-  }
+    }
 `;
+
+export const Paragraph2 = styled.p`
+  color: var(--White-Back, #FAFAFA);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+  `;
 
 export const Paragraph = styled.p`
   color: var(--White-Back, #FAFAFA);
@@ -87,8 +97,7 @@ export const Checkout = styled.div`
   align-items: flex-start;
   margin-top: -2.5%;
   box-sizing: border-box;
-  @media (max-width: 1024px) {
-  margin-top: 5%;  }
+
 `;
 
 export const Image = styled.img`
@@ -96,6 +105,7 @@ export const Image = styled.img`
   height: 40px;
   margin-right: 16px; 
   vertical-align: middle;
+
 `;
 
 export const OrangeText = styled.span`
@@ -108,19 +118,10 @@ export const OrangeText = styled.span`
   }
 `;
 
-export const Paragraph2 = styled.p`
-  color: var(--White-Back, #FAFAFA);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  white-space: nowrap; 
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-  `;
 
 export const OrangeText2 = styled.span`
   color: var(--Pure-Orange, #FF9100);
+  width: 100%;
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
@@ -138,6 +139,7 @@ export const Side = styled.div`
   @media (max-width: 1024px) {
     flex-direction: column;
     gap: 5%;
+    padding: 0;
     align-items: center;
     justify-content: center;
     width: 80%;
