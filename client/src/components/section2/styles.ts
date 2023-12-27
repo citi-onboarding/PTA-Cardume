@@ -19,6 +19,7 @@ export const Container1 = styled.div`
   margin-top: -20%;
   @media (max-width: 1024px) {
     height: 900px; 
+    width: 100%;
     justify-content: center; }
 `;
 
@@ -100,7 +101,7 @@ export const Button = styled.button`
   }
   @media (max-width: 1024px) {
     margin-top: 5%;
-    width: 350px;
+    width:100%;
     height: 70px;
   }
 `;

@@ -43,6 +43,7 @@ export const List = styled.ul<Props>`
 
   @media screen and (max-width: 1024px) {
     background-color: #FAFAFA;
+    width: 100%;
     display: ${({ toggle }) => (toggle === 1 ? 'flex' : 'none')};
     flex-direction: column;
     padding: 1rem;

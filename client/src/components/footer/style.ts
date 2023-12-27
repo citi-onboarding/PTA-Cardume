@@ -27,6 +27,7 @@ export const HomeContainer = styled.div`
     gap:5%;
     @media (max-width: 1024px) {
     padding-top: 3%;
+    width: 100%;
     height: 565px; 
     background-image: none;
     background-color: #4C2882;
