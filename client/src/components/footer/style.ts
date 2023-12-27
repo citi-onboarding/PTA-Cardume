@@ -37,9 +37,9 @@ export const HomeContainer = styled.div`
 
 `;
 
-export const Titulo = styled.header`
+export const Titulo = styled.h1`
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
@@ -52,7 +52,7 @@ export const FaleConosco = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin-left: 5%;
-    margin-bottom: 5%;
+    padding-bottom: 8%;
 `;
 
 
@@ -87,7 +87,7 @@ export const Inside2 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2%;
+    padding-bottom: 2%;
 `;
 
 export const TextoCreditos = styled.header`
