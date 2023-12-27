@@ -10,6 +10,8 @@ export const Fundo = styled.div`
     background-position: 0px -60px;
     background-color: white;
     margin-top: -13%;
+    display: flex;
+    align-items: flex-end;
 `;
 
 export const HomeContainer = styled.div`
@@ -30,7 +32,7 @@ export const HomeContainer = styled.div`
     height: 565px; 
     background-image: none;
     background-color: #4C2882;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column; }
 
@@ -52,6 +54,10 @@ export const FaleConosco = styled.div`
     align-items: flex-start;
     margin-left: 5%;
     padding-bottom: 8%;
+    @media (max-width: 1024px) {
+        margin-left: 0%;
+        padding-bottom: 0%;
+    }
 `;
 
 
@@ -80,6 +86,9 @@ export const Creditos = styled.div`
     flex-direction: row;
     align-items:center;
     gap: 7px;
+    @media (max-width: 1024px) {
+        margin-top: 0%;
+    }
 `;
 
 export const Inside2 = styled.div`

@@ -20,10 +20,9 @@ gap:5%;
 align-items: center;
 @media (max-width: 1024px) {
   width: 100%;
-  padding-top: 10%;
   flex-direction: column;
-  height: 1300px;
-  justify-content: center;
+  height: 1500px;
+  justify-content: flex-start;
   gap: 10%;
   }
 `;
@@ -43,14 +42,14 @@ border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background-color: #d7d0e2;
 box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.75);
 @media (max-width: 1024px) {
-  width: 50%; 
-  margin-left: 0px;}
+  width: 80%; 
+  margin-left: 0px;
+  }
 `;
 
 export const SecondBox = styled.div`
 display: flex;
 width: 560px;
-height: 420px;
 padding: 24px 16px;
 flex-direction: column;
 align-items: flex-start;
@@ -60,6 +59,9 @@ border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background-color: #d7d0e2;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 margin-top: -10%;
+@media (max-width: 1024px) {
+  width: 80%; 
+ }
 `;
 
 export const Titulo = styled.h2`
@@ -122,13 +124,14 @@ export const Wrapper = styled.div`
   @media (max-width: 1024px) {
     flex-direction: column;
     margin-left: 0px;
-    gap: 0px;
+    gap: 3px;
   }
   `;
 
 export const RetanguloWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 
@@ -182,7 +185,7 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   line-height: 16px; /* 100% */
 }
 @media (max-width: 1024px) {
-width: 50%  }
+width: 100%  }
 margin-left: 0px;
 margin-bottom: 2%;
 `;
@@ -202,7 +205,7 @@ font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
   outline: none;
 }
 @media (max-width: 1024px) {
-  width: 50%;
+  width: 100%;
   margin-left: 0px;  }
 `;
 
@@ -244,4 +247,8 @@ z-index: 1;
     background: var(--Dark-Moderate-Violet, #4C2882);
     color: var(--White-Back, #FAFAFA);
   }
+  @media (max-width: 1024px) {
+    width: 50%; 
+    gap: 0px;
+    margin-left: 0px; }
 `;

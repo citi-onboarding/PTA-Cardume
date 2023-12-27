@@ -15,7 +15,7 @@ export const Container = styled.section`
   background-size: cover;
   min-height: 85vh;
   @media (max-width: 1024px) {
-    height: 920px;
+    height: 980px;
     justify-content: center;
   }
 `;
@@ -23,6 +23,9 @@ export const Container = styled.section`
 export const TextContainer = styled.div`
   width: 100%;
   height: 100%;
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
 `;
 
 export const Subtitle = styled.span`

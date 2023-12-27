@@ -17,8 +17,9 @@ export const Container1 = styled.div`
   padding-top: 14%;
   margin-top: -22%;
   @media (max-width: 1024px) {
-    height: 900px; 
-    justify-content: center; }
+    height: 1300px; 
+    justify-content: center;
+    align-items: center; }
 `;
 
 export const TextBox = styled.div`

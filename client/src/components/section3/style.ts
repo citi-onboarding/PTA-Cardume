@@ -10,11 +10,10 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 @media (max-width: 1024px) {
-  height: 1800px;
+  height: 1840px;
   width: 100%;
   justify-content: center;
 }
-
 `;
 
 export const StyledSlider = styled.div`
@@ -63,7 +62,6 @@ export const Button = styled.button`
 `;
 
 export const Servico = styled.div`
-width: 100%;
 padding: 0 5%;
 display: flex;
 flex-direction: row;

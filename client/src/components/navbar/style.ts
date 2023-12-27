@@ -15,6 +15,9 @@ export const ContainerNav = styled.nav`
   flex-direction: row;
   background-color: #4C2882;
   border-bottom: 1px solid #FAFAFA;
+  @media (max-width: 1024px) {
+    padding: 0rem 1rem;
+  }
 `;
 
 export const List = styled.ul<Props>`

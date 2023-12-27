@@ -32,7 +32,6 @@ export const Navbar = () => {
               smooth={true}
               duration={500}
               spy={true}
-              exact="true"
             >
               {item}
             </ScrollLink>
