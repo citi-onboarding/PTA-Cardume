@@ -17,8 +17,7 @@ export const Container1 = styled.div`
   padding-top: 14%;
   margin-top: -22%;
   @media (max-width: 1024px) {
-    height: 1500px; 
-    padding: 3% 3%;
+    height: 1450px; 
     justify-content: center;
     align-items: center; }
 `;
@@ -115,6 +114,10 @@ export const Side = styled.div`
   align-items: center;
   @media (max-width: 1024px) {
     flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 1%;
+    justify-content: center;
   }
 `;
 
@@ -133,6 +136,9 @@ export const ButtonText = styled.span`
 export const ShoppingCartIcon = styled.img`
   width: 40px;
   height: 40px;
+  @media (max-width: 1024px) {
+    width: 30px;
+    height: 30px;  }
 `;
 
 export const handleButtonClick = () => {
