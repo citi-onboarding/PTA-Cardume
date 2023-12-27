@@ -11,7 +11,6 @@ flex-shrink: 0;
 background-image: url(${FundoSection2.src});
 background-size: cover;
 background-position: 0px -200px;
-padding-top: 35px;
 position: relative;
 display: flex;
 flex-direction: row;
