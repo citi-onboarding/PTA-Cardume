@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 interface Props {
-  toggle: number;
+  toggle: boolean;
 }
 
 export const ContainerNav = styled.nav`
@@ -44,7 +44,7 @@ export const List = styled.ul<Props>`
   @media screen and (max-width: 1024px) {
     background-color: #FAFAFA;
     width: 100%;
-    display: ${({ toggle }) => (toggle === 1 ? 'flex' : 'none')};
+    display: ${({ toggle }) => (toggle === true ? 'flex' : 'none')};
     flex-direction: column;
     padding: 1rem;
     position: absolute;
