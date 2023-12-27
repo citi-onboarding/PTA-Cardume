@@ -18,6 +18,7 @@ export const Container1 = styled.div`
   margin-top: -22%;
   @media (max-width: 1024px) {
     height: 1500px; 
+    padding: 3% 3%;
     justify-content: center;
     align-items: center; }
 `;
