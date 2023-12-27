@@ -15,7 +15,8 @@ padding-top: 40px;
 position: relative;
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content:center;
+gap:5%;
 align-items: center;
 @media (max-width: 1024px) {
   padding-top: 10%;
@@ -36,7 +37,6 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 16px;
-margin-left: 40px;
 border-radius: 16px;
 border: 1px solid var(--pure-orange-40, rgba(255, 145, 0, 0.40));
 background-color: #d7d0e2;

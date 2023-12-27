@@ -4,12 +4,12 @@ import { FundoSection2 } from 'assets';
 
 export const Container1 = styled.div`
   width: 100%;
-  height: 810px;
+  height: 950px;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-image: url(${FundoSection2.src});
   background-color: #FAFAFA;
   background-size: cover;

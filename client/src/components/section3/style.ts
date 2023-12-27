@@ -63,6 +63,8 @@ export const Button = styled.button`
 `;
 
 export const Servico = styled.div`
+width: 100%;
+padding: 0 5%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
