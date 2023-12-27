@@ -1,6 +1,6 @@
 import React from "react";
 import  Image from "next/image";
-import { HomeContainer, Fundo, FaleConosco, Titulo, LinhaFaleConosco, Infos, Creditos, TextoCreditos} from "./style";
+import { HomeContainer, Fundo, FaleConosco, Titulo, LinhaFaleConosco, Infos, Creditos, TextoCreditos, Inside2} from "./style";
 import { LogoCardume, EmailIcon, FacebookIcon, InstagramIcon, WebsiteIcon, WhatsappIcon, LogoCiti, Heart} from "../../assets";
 
 export default function Footer(){
@@ -25,13 +25,15 @@ export default function Footer(){
                         <a href= "https://www.facebook.com/people/Cardume-Propriedade-Intelectual/pfbid02E9xNzhLocfdMR2TyH2Bt2FpK6yvzdweTu7Fuf5B1i73pqRjBM9mi6dE6xbDKfJ6l/?locale=pt_BR" target="_blank"><Image src={FacebookIcon} alt = "FacebookIcon"/></a><Infos>Cardume Propriedade Intelectual</Infos>
                     </LinhaFaleConosco>
                 </FaleConosco>
-                <Image src={LogoCardume} alt = "LogoCardume" style={{width: "276.25px", height: "214.2px", marginLeft: "150px", marginRight: "557px", marginTop:"245px", display: "flex"}}/>
-                <Creditos>
-                    <TextoCreditos>Made with &lt;/&gt; and  </TextoCreditos>
-                    <Image src={Heart} alt = "Heart" style={{marginTop: "6px"}}/>
-                    <TextoCreditos> by</TextoCreditos>
-                    <Image src={LogoCiti} alt = "LogoCiti" style={{marginTop: "5px"}}/>
-                </Creditos>
+                <Inside2>
+                    <Image src={LogoCardume} alt = "LogoCardume" />
+                    <Creditos>
+                        <TextoCreditos>Made with &lt;/&gt; and  </TextoCreditos>
+                        <Image src={Heart} alt = "Heart"/>
+                        <TextoCreditos> by</TextoCreditos>
+                        <Image src={LogoCiti} alt = "LogoCiti"/>
+                    </Creditos>
+                    </Inside2>
             </HomeContainer>
         </Fundo>
             

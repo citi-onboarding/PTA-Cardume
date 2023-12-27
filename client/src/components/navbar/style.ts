@@ -31,10 +31,9 @@ export const List = styled.ul<Props>`
     text-decoration: underline;
     text-decoration-color: #4C2882;
     color: var(--White-Back, #FAFAFA);
-    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 24px;
     &:hover {
       text-decoration: underline;
