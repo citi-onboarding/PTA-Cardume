@@ -6,12 +6,12 @@ export const HomeContainer = styled.div`
 
 background-color: #FAFAFA;
 width: 100%;
-min-height: 150vh;
+min-height: 130vh;
 flex-shrink: 0;
 background-image: url(${FundoSection2.src});
 background-size: cover;
 background-position: 0px -200px;
-padding-top: 40px;
+padding-top: 35px;
 position: relative;
 display: flex;
 flex-direction: row;
