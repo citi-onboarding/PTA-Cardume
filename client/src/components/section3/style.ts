@@ -4,7 +4,6 @@ export const HomeContainer = styled.div`
 width: 100%;
 height: 1090px;
 flex-shrink: 0;
-flex-shrink: 0;
 background-color: var(--Dark-Moderate-Violet, #4C2882);
 display: flex;
 flex-direction: column;

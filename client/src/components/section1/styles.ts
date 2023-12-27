@@ -94,6 +94,9 @@ export const Image = styled.img`
   height: 40px;
   margin-right: 16px; 
   vertical-align: middle;
+  @media (max-width: 1024px) {
+    margin-right: 0;
+  }
 `;
 
 export const OrangeText = styled.span`
