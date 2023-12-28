@@ -15,7 +15,7 @@ export const Container = styled.section`
   background-size: cover;
   min-height: 85vh;
   @media (max-width: 1024px) {
-    height: 1250px;
+    height: 1300px;
     justify-content: center;
   }
 `;
