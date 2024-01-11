@@ -52,7 +52,7 @@ export const List = styled.ul<Props>`
     padding: 1rem;
     position: absolute;
     right: 0;
-    top: 15vw;
+    top:20vw;
     z-index: 15;
 
     li {

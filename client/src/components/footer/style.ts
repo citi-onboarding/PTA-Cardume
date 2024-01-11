@@ -77,6 +77,8 @@ export const Infos = styled.header`
     font-weight: 600;
     line-height: 16px;
     color: #FAFAFA;
+    @media (max-width: 1024px) {
+        color: #FAFAFA;    }
 `;
 
 

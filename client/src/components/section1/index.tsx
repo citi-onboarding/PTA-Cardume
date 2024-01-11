@@ -5,6 +5,7 @@ import { Side, Container, TextContainer, Checkout, Header, Paragraph, Image, Ora
 export default function Section1() {
   return ( 
     <Container id="section1">
+      <OrangeText>Monitore sua marca 24 horas por dia!</OrangeText>
       <Side>
       <TextContainer >
         <TitleText> 
