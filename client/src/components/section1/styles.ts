@@ -7,13 +7,14 @@ export const Container = styled.section`
   align-items: center;
   flex-direction: column;
   position: relative;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   z-index: 2; 
   background-image: url(${ImageDegrade.src});
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 85vh;
+  min-height: 95vh;
+  padding-bottom: 8%;
   @media (max-width: 1024px) {
     height: 1300px;
     justify-content: center;
@@ -49,10 +50,12 @@ export const Header = styled.div`
   letter-spacing: 0em;
   text-align: left;
   height: 20px;
-  margin-bottom: 40px;
+  margin-top: -1%;
+  margin-bottom: 3%;
   color: #ff9100;
   @media (max-width: 1024px) {
     font-size: 18px;
+    margin-bottom: 5%;
   }
 `;
 
@@ -102,7 +105,6 @@ export const Checkout = styled.div`
   margin-left: 2%;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: -2.5%;
   box-sizing: border-box;
 
 `;
@@ -138,7 +140,7 @@ export const OrangeText2 = styled.span`
   `;
 
 export const Side = styled.div`
-  padding: 5% 0;
+  padding-top: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

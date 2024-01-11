@@ -68,6 +68,11 @@ export const LinhaFaleConosco = styled.div`
     justify-content: center;
     gap: 16px;
     height: 100%;
+    @media (max-width: 1024px) {
+        a {
+        text-decoration: none; 
+        color: #FAFAFA;
+    }     }
 `;
 
 
@@ -78,7 +83,8 @@ export const Infos = styled.header`
     line-height: 16px;
     color: #FAFAFA;
     @media (max-width: 1024px) {
-        color: #FAFAFA;    }
+        color: #FAFAFA;  
+        text-decoration: none;  }
 `;
 
 
