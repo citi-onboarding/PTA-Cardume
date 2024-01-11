@@ -16,7 +16,7 @@ export const Container = styled.section`
   min-height: 95vh;
   padding-bottom: 8%;
   @media (max-width: 1024px) {
-    height: 1300px;
+    height: 1600px;
     justify-content: center;
   }
 `;
@@ -29,6 +29,7 @@ export const TextContainer = styled.div`
     width: 80%;
     align-items: center;
     justify-content: center;
+    padding-top: 15%;
   }
 `;
 
@@ -55,7 +56,8 @@ export const Header = styled.div`
   color: #ff9100;
   @media (max-width: 1024px) {
     font-size: 18px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    margin-top: -5%;
   }
 `;
 
@@ -124,6 +126,7 @@ export const OrangeText = styled.span`
   line-height: 36px;
   @media (max-width: 1024px) {
     font-size: 30px;
+    width: 70%;
   }
 `;
 

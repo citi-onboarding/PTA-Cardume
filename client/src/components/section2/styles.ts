@@ -15,7 +15,7 @@ export const Container1 = styled.div`
   background-size: cover;
   background-position: 0px -200px;
   padding-top: 14%;
-  margin-top: -22%;
+  margin-top: -23%;
   @media (max-width: 1024px) {
     height: 1450px; 
     justify-content: center;
