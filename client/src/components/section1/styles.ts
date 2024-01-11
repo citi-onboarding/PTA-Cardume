@@ -7,13 +7,13 @@ export const Container = styled.section`
   align-items: center;
   flex-direction: column;
   position: relative;
+  justify-content: space-between;
   width: 100%;
-  padding-top: 3%;
   z-index: 2; 
   background-image: url(${ImageDegrade.src});
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 95vh;
+  min-height: 85vh;
   @media (max-width: 1024px) {
     height: 1300px;
     justify-content: center;
@@ -27,7 +27,6 @@ export const TextContainer = styled.div`
   @media (max-width: 1024px) {
     width: 80%;
     align-items: center;
-    margin-top: 15%;
     justify-content: center;
   }
 `;
@@ -50,8 +49,8 @@ export const Header = styled.div`
   letter-spacing: 0em;
   text-align: left;
   height: 20px;
+  margin-bottom: 40px;
   color: #ff9100;
-  margin-bottom: 3%;
   @media (max-width: 1024px) {
     font-size: 18px;
   }
@@ -103,6 +102,7 @@ export const Checkout = styled.div`
   margin-left: 2%;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: -2.5%;
   box-sizing: border-box;
 
 `;
@@ -122,9 +122,6 @@ export const OrangeText = styled.span`
   line-height: 36px;
   @media (max-width: 1024px) {
     font-size: 30px;
-    width: 80%;
-    text-align: center;
-    align-self: center;
   }
 `;
 
@@ -141,7 +138,7 @@ export const OrangeText2 = styled.span`
   `;
 
 export const Side = styled.div`
-  padding: 2% 0;
+  padding: 5% 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -155,4 +152,3 @@ export const Side = styled.div`
     width: 80%;
 }
 `;
-
