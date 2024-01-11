@@ -101,7 +101,9 @@ export default function Section4() {
                   </Texto>
                 <Texto><Destaque>Forma de pagamento:</Destaque> o plano mensal é pago de forma recorrente (cartão de 
                 crédito). O plano anual é pago à vista (boleto ou pix). O cliente poderá optar 
-                pela renovação automática ou não do plano anual.Política de cancelamentos: o 
+                pela renovação automática ou não do plano anual.
+                </Texto>
+                <Texto><Destaque>Política de cancelamentos: </Destaque> o 
                 plano mensal pode ser cancelado em até 10 dias antes do pagamento do 
                 respectivo mês. O plano anual pode ser cancelado em até 30 dias após a 
                 contratação. Passado este período, o contratante assume a responsabilidade de 

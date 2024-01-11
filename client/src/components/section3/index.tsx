@@ -75,11 +75,11 @@ export default function Section3() {
                 </Topicos> 
                 <Topicos>
                 <Image src={Settings} alt="Atualização" />
-               <Descricao>Configuração dos processos em nossos sistemas</Descricao>
+               <Descricao>Seu processo será configurado em nossa base de dados</Descricao>
                 </Topicos>
                  <Topicos>
                 <Image src={Checking} alt="Atualização" />
-               <Descricao>Monitoramento 24 horas por dia e 7 dias por semana</Descricao>
+               <Descricao>Iniciaremos o monitoramento 24 horas por dia e 7 dias por semana</Descricao>
                 </Topicos>
                 <Topicos>
                 <Image src={Update} alt="Atualização" />
@@ -87,11 +87,12 @@ export default function Section3() {
                 </Topicos>
                  <Topicos>
                 <Image src={Notification} alt="Atualização" />
-               <Descricao>Seja avisado por e-mail sempre que houver qualquer movimentação em seu pedido de registro</Descricao>
+               <Descricao>Avisaremos por e-mail sempre que houver movimentação em seu processo</Descricao>
                 </Topicos>
             </Servico>
-            <Subtitle ><Destaque>Clique no link, </Destaque>contrate o monitoramento de seu pedido de registro e livre-se da obrigação de acompanhar o <br></br>
-            andamento do seu pedido até a decisão final do INPI. Garanta a segurança de sua marca já registrada para sempre!</Subtitle>
+            <Subtitle ><Destaque>Contrate AGORA</Destaque> nosso sistema de monitoramento de marca e 
+             livre-se da obrigação de vigiá-la <br/> pelos próximos 10 ANOS. 
+             Garanta a segurança de sua marca por tempo indeterminado!</Subtitle>
             <Button onClick={handleButtonClick}>
                 Contrate aqui!
                 <Image src={CarroCompras2} alt="Carro de compras"  />
