@@ -22,7 +22,7 @@ align-items: center;
   flex-direction: column;
   padding-top: 5%;
   background-position: 0px 0px;
-  height: 1655px;
+  height: 1750px;
   justify-content: flex-start;
   }
 `;
