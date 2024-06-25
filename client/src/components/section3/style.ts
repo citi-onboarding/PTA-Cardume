@@ -133,5 +133,5 @@ line-height: 20px; /* 100% */
 `;
 
 export const handleButtonClick = () => {
-    window.open('https://pay.kiwify.com.br/AuReH8X', '_blank');  
+    window.open('https://pay.kiwify.com.br/UifdbdC', '_blank');  
   };
